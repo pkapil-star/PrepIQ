@@ -1,0 +1,218 @@
+{
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\.claude\\settings.local.json": {
+    "mtime": 1791114186.1875014,
+    "seen": 1791117581.673762,
+    "ast_hash": "ac54ff78312a71df6df27c874bbfe993",
+    "semantic_hash": "ac54ff78312a71df6df27c874bbfe993"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\.graphify_detect.json": {
+    "mtime": 1791117036.6980214,
+    "seen": 1791117581.6737669,
+    "ast_hash": "ffd7755f60e3c2f3e84f0e45b6b36c56",
+    "semantic_hash": "ffd7755f60e3c2f3e84f0e45b6b36c56"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\backend\\package.json": {
+    "mtime": 1791115242.4391806,
+    "seen": 1791117581.6737688,
+    "ast_hash": "6bd63893984ee41c0a75a69add8f9b02",
+    "semantic_hash": "6bd63893984ee41c0a75a69add8f9b02"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\backend\\sql\\schema.sql": {
+    "mtime": 1791115274.9890356,
+    "seen": 1791117581.6737695,
+    "ast_hash": "e44f0c18a092bd0c869ceffd64af48a7",
+    "semantic_hash": "e44f0c18a092bd0c869ceffd64af48a7"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\backend\\src\\lib\\scoring.js": {
+    "mtime": 1791115225.3983266,
+    "seen": 1791117581.6737702,
+    "ast_hash": "aee7b9cfbbf73f615c082137d30fb849",
+    "semantic_hash": "aee7b9cfbbf73f615c082137d30fb849"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\backend\\src\\lib\\supabaseClient.js": {
+    "mtime": 1791115221.8044136,
+    "seen": 1791117581.6737714,
+    "ast_hash": "8028178a9d2cd7ac1faa9e620c3f9a5e",
+    "semantic_hash": "8028178a9d2cd7ac1faa9e620c3f9a5e"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\backend\\src\\routes\\companies.js": {
+    "mtime": 1791115227.4515915,
+    "seen": 1791117581.673772,
+    "ast_hash": "43da2044d24c0f4829d3f6db4353e847",
+    "semantic_hash": "43da2044d24c0f4829d3f6db4353e847"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\backend\\src\\routes\\roles.js": {
+    "mtime": 1791115229.2180252,
+    "seen": 1791117581.6737728,
+    "ast_hash": "b2a4fe2fe688cad925bfa0c3cb495806",
+    "semantic_hash": "b2a4fe2fe688cad925bfa0c3cb495806"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\backend\\src\\routes\\users.js": {
+    "mtime": 1791115235.551522,
+    "seen": 1791117581.6737735,
+    "ast_hash": "5ddcefc2342d5b045fb4313501396275",
+    "semantic_hash": "5ddcefc2342d5b045fb4313501396275"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\backend\\src\\server.js": {
+    "mtime": 1791115220.4856212,
+    "seen": 1791117581.673774,
+    "ast_hash": "ca158e572fd4b2eaa42f2eb567492f4b",
+    "semantic_hash": "ca158e572fd4b2eaa42f2eb567492f4b"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\data-pipeline\\extract.js": {
+    "mtime": 1791115255.5213418,
+    "seen": 1791117581.673775,
+    "ast_hash": "39c59816f0b6bc4ab46a4724436be321",
+    "semantic_hash": "39c59816f0b6bc4ab46a4724436be321"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\data-pipeline\\load-to-db.js": {
+    "mtime": 1791115260.497296,
+    "seen": 1791117581.6737757,
+    "ast_hash": "582c4b7d532bb66ba0200e8becd7c2ea",
+    "semantic_hash": "582c4b7d532bb66ba0200e8becd7c2ea"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\data-pipeline\\package.json": {
+    "mtime": 1791116833.5599372,
+    "seen": 1791117581.6737764,
+    "ast_hash": "16a7f45027f19b90e40c38519b42ef20",
+    "semantic_hash": "16a7f45027f19b90e40c38519b42ef20"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\data-pipeline\\seed-companies-roles.js": {
+    "mtime": 1791116820.847408,
+    "seen": 1791117581.6737769,
+    "ast_hash": "e034fc1714a231c57cbe9d4a7cc0ae81",
+    "semantic_hash": "e034fc1714a231c57cbe9d4a7cc0ae81"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\data-pipeline\\seed\\companies-roles.json": {
+    "mtime": 1791116813.2457838,
+    "seen": 1791117581.6737776,
+    "ast_hash": "2270d90b49ca8bbb2faf2e84fbfdf61b",
+    "semantic_hash": "2270d90b49ca8bbb2faf2e84fbfdf61b"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\.oxlintrc.json": {
+    "mtime": 1789297353.3969781,
+    "seen": 1791117581.673778,
+    "ast_hash": "5e6e3cea3e89137071c142dd7835b0ef",
+    "semantic_hash": "5e6e3cea3e89137071c142dd7835b0ef"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\package.json": {
+    "mtime": 1791115191.091532,
+    "seen": 1791117581.673779,
+    "ast_hash": "fd8dd434c01d9a677b663977fcfd354c",
+    "semantic_hash": "fd8dd434c01d9a677b663977fcfd354c"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\src\\App.jsx": {
+    "mtime": 1791115207.190364,
+    "seen": 1791117581.6737797,
+    "ast_hash": "c3c1fea0c188841ded0473955150dd6f",
+    "semantic_hash": "c3c1fea0c188841ded0473955150dd6f"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\src\\api\\client.js": {
+    "mtime": 1791115263.5976725,
+    "seen": 1791117581.6737802,
+    "ast_hash": "285ee057ab9d3d3127c3a5c78bb44c10",
+    "semantic_hash": "285ee057ab9d3d3127c3a5c78bb44c10"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\src\\main.jsx": {
+    "mtime": 1789297353.4118073,
+    "seen": 1791117581.673781,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": "e13723e2574429d9a6d849727e3ff695"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\vite.config.js": {
+    "mtime": 1791115198.0529597,
+    "seen": 1791117581.6737814,
+    "ast_hash": "844f5af05f82be907aaa0ee656d7ae33",
+    "semantic_hash": "844f5af05f82be907aaa0ee656d7ae33"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\ARCHITECTURE.md": {
+    "mtime": 1791109342.9556675,
+    "seen": 1791117581.673782,
+    "ast_hash": "71595d05eb5ac881064414e57c18d22e",
+    "semantic_hash": "71595d05eb5ac881064414e57c18d22e"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\CLAUDE.md": {
+    "mtime": 1791108425.1371307,
+    "seen": 1791117581.6737833,
+    "ast_hash": "9624b6adea216ca6a26278b66fea22a8",
+    "semantic_hash": "9624b6adea216ca6a26278b66fea22a8"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\MEMORY.md": {
+    "mtime": 1791116867.9181676,
+    "seen": 1791117581.6737838,
+    "ast_hash": "f7cd855317f7cac7cc09367e71b66ec2",
+    "semantic_hash": "f7cd855317f7cac7cc09367e71b66ec2"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\PRD.md": {
+    "mtime": 1791108454.444111,
+    "seen": 1791117581.6737845,
+    "ast_hash": "1faac5da75e4c4b9e0e8572cbfecad1e",
+    "semantic_hash": "1faac5da75e4c4b9e0e8572cbfecad1e"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\RULES.md": {
+    "mtime": 1791108493.5855777,
+    "seen": 1791117581.6737854,
+    "ast_hash": "02c8803f06a8008a43f88191d7bfc467",
+    "semantic_hash": "02c8803f06a8008a43f88191d7bfc467"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\TASK.md": {
+    "mtime": 1791116876.8290567,
+    "seen": 1791117581.6737862,
+    "ast_hash": "91d6bca4450c355ea0f765b45766a3b5",
+    "semantic_hash": "91d6bca4450c355ea0f765b45766a3b5"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\TRD.md": {
+    "mtime": 1791115280.677518,
+    "seen": 1791117581.6737866,
+    "ast_hash": "25d1986b0ac51425a9f1db7499c49074",
+    "semantic_hash": "25d1986b0ac51425a9f1db7499c49074"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\README.md": {
+    "mtime": 1789297353.3969781,
+    "seen": 1791117581.6737874,
+    "ast_hash": "75eb386f17caf77fd6fe3ce1d90968ee",
+    "semantic_hash": "75eb386f17caf77fd6fe3ce1d90968ee"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\index.html": {
+    "mtime": 1791115071.3917477,
+    "seen": 1791117581.6737878,
+    "ast_hash": "89150e536c4a99f73625f46f41f0f437",
+    "semantic_hash": "89150e536c4a99f73625f46f41f0f437"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\PrepIQ - PRD and TRD.pdf": {
+    "mtime": 1790518380.963729,
+    "seen": 1791117581.6737888,
+    "ast_hash": "2149de818b35c88b2a55d83dbe45f633",
+    "semantic_hash": "2149de818b35c88b2a55d83dbe45f633"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\public\\favicon.svg": {
+    "mtime": 1789297353.3969781,
+    "seen": 1791117581.6737893,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": "7e840862161341271697daa99a40d76b"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\public\\icons.svg": {
+    "mtime": 1789297353.3969781,
+    "seen": 1791117581.67379,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": "3b4fcfcf393eca4d264dca4a4663bc37"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\src\\assets\\hero.png": {
+    "mtime": 1789297353.3969781,
+    "seen": 1791117581.6737907,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": "aead493361b27e7510691c5d7072dfc1"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\src\\assets\\react.svg": {
+    "mtime": 1789297353.3969781,
+    "seen": 1791117581.6737912,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": "f0402b67b6ce880f65666bb49e841696"
+  },
+  "C:\\Users\\ACER\\Projects main\\PrepIQ\\frontend\\src\\assets\\vite.svg": {
+    "mtime": 1789297353.4118073,
+    "seen": 1791117581.6737916,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": "9960a24288958394ac50e57ff638b036"
+  }
+}

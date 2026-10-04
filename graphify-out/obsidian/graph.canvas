@@ -1,0 +1,3490 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Frontend Dependencies",
+      "x": 0,
+      "y": 0,
+      "width": 1540,
+      "height": 720,
+      "color": "1"
+    },
+    {
+      "id": "n_frontend_package_dependencies_tailwindcss_vite",
+      "type": "file",
+      "file": "@tailwindcssvite.md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_tailwindcss_vite",
+      "type": "file",
+      "file": "@tailwindcssvite_1.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_types_react",
+      "type": "file",
+      "file": "@typesreact.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_types_react",
+      "type": "file",
+      "file": "@typesreact_1.md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom.md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom_1.md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react.md",
+      "x": 1220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react_1.md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_app_app",
+      "type": "file",
+      "file": "App().md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_app",
+      "type": "file",
+      "file": "App.jsx.md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_autoprefixer",
+      "type": "file",
+      "file": "autoprefixer.md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_autoprefixer",
+      "type": "file",
+      "file": "autoprefixer_1.md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts_build",
+      "type": "file",
+      "file": "build.md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies",
+      "type": "file",
+      "file": "dependencies_2.md",
+      "x": 1220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts_dev",
+      "type": "file",
+      "file": "dev_1.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies_1.md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package",
+      "type": "file",
+      "file": "frontendpackage.json.md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_index",
+      "type": "file",
+      "file": "frontend_src_index.md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts_lint",
+      "type": "file",
+      "file": "lint.md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_main",
+      "type": "file",
+      "file": "main.jsx.md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_name",
+      "type": "file",
+      "file": "name_2.md",
+      "x": 1220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_oxlint",
+      "type": "file",
+      "file": "oxlint.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_oxlint",
+      "type": "file",
+      "file": "oxlint_1.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_postcss",
+      "type": "file",
+      "file": "postcss.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_postcss",
+      "type": "file",
+      "file": "postcss_1.md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts_preview",
+      "type": "file",
+      "file": "preview.md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_private",
+      "type": "file",
+      "file": "private.md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies_react",
+      "type": "file",
+      "file": "react.md",
+      "x": 1220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_react",
+      "type": "file",
+      "file": "react_1.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies_react_dom",
+      "type": "file",
+      "file": "react-dom.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_react_dom",
+      "type": "file",
+      "file": "react-dom_1.md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts",
+      "type": "file",
+      "file": "scripts_2.md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_tailwindcss",
+      "type": "file",
+      "file": "tailwindcss.md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_tailwindcss",
+      "type": "file",
+      "file": "tailwindcss_1.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_type",
+      "type": "file",
+      "file": "type_2.md",
+      "x": 1220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_version",
+      "type": "file",
+      "file": "version_2.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_vite",
+      "type": "file",
+      "file": "vite.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_vite",
+      "type": "file",
+      "file": "vite_1.md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_vite_config",
+      "type": "file",
+      "file": "vite.config.js.md",
+      "x": 620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Backend API & Scoring Logic",
+      "x": 1620,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "2"
+    },
+    {
+      "id": "n_backend_src_server_app",
+      "type": "file",
+      "file": "app.md",
+      "x": 1640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_companies",
+      "type": "file",
+      "file": "companies.js.md",
+      "x": 1840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_server_companiesrouter",
+      "type": "file",
+      "file": "companiesRouter.md",
+      "x": 2040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_server_cors",
+      "type": "file",
+      "file": "cors_2.md",
+      "x": 2240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_cors",
+      "type": "file",
+      "file": "cors_1.md",
+      "x": 2440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_lib_scoring_decayedskill",
+      "type": "file",
+      "file": "decayedSkill().md",
+      "x": 2640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_companies_express",
+      "type": "file",
+      "file": "express_2.md",
+      "x": 1640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_roles_express",
+      "type": "file",
+      "file": "express_3.md",
+      "x": 1840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_users_express",
+      "type": "file",
+      "file": "express_4.md",
+      "x": 2040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_server_express",
+      "type": "file",
+      "file": "express_5.md",
+      "x": 2240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_express",
+      "type": "file",
+      "file": "express_1.md",
+      "x": 2440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_lib_scoring_ranktopics",
+      "type": "file",
+      "file": "rankTopics().md",
+      "x": 2640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_supabase_supabase_js",
+      "type": "file",
+      "file": "ref_supabase_supabase_js.md",
+      "x": 1640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_roles",
+      "type": "file",
+      "file": "roles.js.md",
+      "x": 1840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_server_rolesrouter",
+      "type": "file",
+      "file": "rolesRouter.md",
+      "x": 2040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_companies_router",
+      "type": "file",
+      "file": "router.md",
+      "x": 2240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_roles_router",
+      "type": "file",
+      "file": "router_1.md",
+      "x": 2440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_users_router",
+      "type": "file",
+      "file": "router_2.md",
+      "x": 2640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_lib_scoring",
+      "type": "file",
+      "file": "scoring.js.md",
+      "x": 1640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_server",
+      "type": "file",
+      "file": "server.js.md",
+      "x": 1840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_lib_supabaseclient_supabase",
+      "type": "file",
+      "file": "supabase.md",
+      "x": 2040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_companies_supabase",
+      "type": "file",
+      "file": "supabase_1.md",
+      "x": 2240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_roles_supabase",
+      "type": "file",
+      "file": "supabase_2.md",
+      "x": 2440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_users_supabase",
+      "type": "file",
+      "file": "supabase_3.md",
+      "x": 2640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_lib_supabaseclient",
+      "type": "file",
+      "file": "supabaseClient.js.md",
+      "x": 1640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_users",
+      "type": "file",
+      "file": "users.js.md",
+      "x": 1840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_server_usersrouter",
+      "type": "file",
+      "file": "usersRouter.md",
+      "x": 2040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_lib_supabaseclient_createclient",
+      "type": "file",
+      "file": "{ createClient }.md",
+      "x": 2240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_src_routes_users_ranktopics",
+      "type": "file",
+      "file": "{ rankTopics }.md",
+      "x": 2440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Data Pipeline Extraction",
+      "x": 3020,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "3"
+    },
+    {
+      "id": "n_ref_anthropic_ai_sdk",
+      "type": "file",
+      "file": "@anthropic-aisdk_1.md",
+      "x": 3040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_extract_anthropic",
+      "type": "file",
+      "file": "Anthropic.md",
+      "x": 3240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_extract_out_dir",
+      "type": "file",
+      "file": "OUT_DIR.md",
+      "x": 3440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_extract_seed_dir",
+      "type": "file",
+      "file": "SEED_DIR.md",
+      "x": 3640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db_structured_dir",
+      "type": "file",
+      "file": "STRUCTURED_DIR.md",
+      "x": 3840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db_rationale_36",
+      "type": "file",
+      "file": "TODO resolve companyIdroleId from the filename convention once\u2026.md",
+      "x": 4040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_extract",
+      "type": "file",
+      "file": "extract.js.md",
+      "x": 3040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_extract_extractone",
+      "type": "file",
+      "file": "extractOne().md",
+      "x": 3240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_extract_fs",
+      "type": "file",
+      "file": "fs.md",
+      "x": 3440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db_fs",
+      "type": "file",
+      "file": "fs_1.md",
+      "x": 3640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_seed_companies_roles_fs",
+      "type": "file",
+      "file": "fs_2.md",
+      "x": 3840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db",
+      "type": "file",
+      "file": "load-to-db.js.md",
+      "x": 4040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db_loadone",
+      "type": "file",
+      "file": "loadOne().md",
+      "x": 3040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_extract_path",
+      "type": "file",
+      "file": "path.md",
+      "x": 3240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db_path",
+      "type": "file",
+      "file": "path_1.md",
+      "x": 3440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_seed_companies_roles_path",
+      "type": "file",
+      "file": "path_2.md",
+      "x": 3640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_fs",
+      "type": "file",
+      "file": "ref_fs.md",
+      "x": 3840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_path",
+      "type": "file",
+      "file": "ref_path.md",
+      "x": 4040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_seed_companies_roles_rows",
+      "type": "file",
+      "file": "rows.md",
+      "x": 3040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_extract_run",
+      "type": "file",
+      "file": "run().md",
+      "x": 3240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db_run",
+      "type": "file",
+      "file": "run()_1.md",
+      "x": 3440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_seed_companies_roles_run",
+      "type": "file",
+      "file": "run()_2.md",
+      "x": 3640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_seed_companies_roles",
+      "type": "file",
+      "file": "seed-companies-roles.js.md",
+      "x": 3840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db_supabase",
+      "type": "file",
+      "file": "supabase_4.md",
+      "x": 4040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_seed_companies_roles_supabase",
+      "type": "file",
+      "file": "supabase_5.md",
+      "x": 3040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_load_to_db_createclient",
+      "type": "file",
+      "file": "{ createClient }_1.md",
+      "x": 3240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_seed_companies_roles_createclient",
+      "type": "file",
+      "file": "{ createClient }_2.md",
+      "x": 3440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Architecture & Project State Docs",
+      "x": 4420,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_memory_seed_data_loaded",
+      "type": "file",
+      "file": "19 Companies  23 Roles Seeded.md",
+      "x": 4440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_component_connections",
+      "type": "file",
+      "file": "Component Connections (frontendbackendlib layering).md",
+      "x": 4640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_core_algorithm",
+      "type": "file",
+      "file": "Core Algorithm P_t = w_t  (1 - s_t).md",
+      "x": 4840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_database_tables",
+      "type": "file",
+      "file": "Core Database Tables (SupabasePostgres).md",
+      "x": 5040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prd_core_features",
+      "type": "file",
+      "file": "Core Features (Hackathon MVP) Table.md",
+      "x": 5240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_rules_error_handling",
+      "type": "file",
+      "file": "Error Handling Standard (shared JSON error shape).md",
+      "x": 5440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_hosting_frontend_vercel_netlify",
+      "type": "file",
+      "file": "Frontend Hosting Vercel or Netlify.md",
+      "x": 4440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_rules_git_workflow",
+      "type": "file",
+      "file": "Git Workflow Rules.md",
+      "x": 4640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_feature_scope_in",
+      "type": "file",
+      "file": "In-Scope MVP Feature Table (PDF).md",
+      "x": 4840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_memory_sync",
+      "type": "file",
+      "file": "Keeping Docs in Sync Rule.md",
+      "x": 5040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_rules_keeping_in_sync",
+      "type": "file",
+      "file": "Keeping Things in Sync Rule.md",
+      "x": 5240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_change_log",
+      "type": "file",
+      "file": "MEMORY.md Change Log.md",
+      "x": 5440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_current_state",
+      "type": "file",
+      "file": "MEMORY.md Current State.md",
+      "x": 4440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_product_goals",
+      "type": "file",
+      "file": "PRD Product Goals (PDF).md",
+      "x": 4640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prd_related_docs",
+      "type": "file",
+      "file": "PRD Related Docs List.md",
+      "x": 4840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_task_phase1",
+      "type": "file",
+      "file": "Phase 1 \u00e2\u20ac\u201d Hours 0-8 Foundations.md",
+      "x": 5040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_task_phase2",
+      "type": "file",
+      "file": "Phase 2 \u00e2\u20ac\u201d Hours 8-20 Core Feature Build.md",
+      "x": 5240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_task_phase3",
+      "type": "file",
+      "file": "Phase 3 \u00e2\u20ac\u201d Hours 20-30 Revision Tracker + Integration.md",
+      "x": 5440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_trd_api_contract",
+      "type": "file",
+      "file": "TRD API Contract (MVP endpoints).md",
+      "x": 4440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_trd_algorithm_requirements",
+      "type": "file",
+      "file": "TRD Algorithm Requirements.md",
+      "x": 4640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_trd_data_requirements",
+      "type": "file",
+      "file": "TRD Data Requirements.md",
+      "x": 4840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_trd_functional_requirements",
+      "type": "file",
+      "file": "TRD Functional Requirements (FR-1..FR-6).md",
+      "x": 5040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_functional_requirements",
+      "type": "file",
+      "file": "TRD Functional Requirements FR1-FR7 (PDF).md",
+      "x": 5240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_trd_non_functional_requirements",
+      "type": "file",
+      "file": "TRD Non-Functional Requirements (NFR-1..NFR-9).md",
+      "x": 5440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_simplicity_rule",
+      "type": "file",
+      "file": "The One Rule Simplest Correct Code per PRD.md",
+      "x": 4440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_unsure_defaults",
+      "type": "file",
+      "file": "When You're Unsure Defaults.md",
+      "x": 4640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Backend Dependencies",
+      "x": 0,
+      "y": 800,
+      "width": 1100,
+      "height": 620,
+      "color": "5"
+    },
+    {
+      "id": "n_backend_package_dependencies_supabase_supabase_js",
+      "type": "file",
+      "file": "@supabasesupabase-js.md",
+      "x": 20,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_json_ref_supabase_supabase_js",
+      "type": "file",
+      "file": "@supabasesupabase-js_1.md",
+      "x": 220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_author",
+      "type": "file",
+      "file": "author.md",
+      "x": 420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package",
+      "type": "file",
+      "file": "backendpackage.json.md",
+      "x": 620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_cors",
+      "type": "file",
+      "file": "cors.md",
+      "x": 820,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies",
+      "type": "file",
+      "file": "dependencies.md",
+      "x": 20,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_description",
+      "type": "file",
+      "file": "description.md",
+      "x": 220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_scripts_dev",
+      "type": "file",
+      "file": "dev.md",
+      "x": 420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies.md",
+      "x": 620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_dotenv",
+      "type": "file",
+      "file": "dotenv.md",
+      "x": 820,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_json_ref_dotenv",
+      "type": "file",
+      "file": "dotenv_1.md",
+      "x": 20,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_express",
+      "type": "file",
+      "file": "express.md",
+      "x": 220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_keywords",
+      "type": "file",
+      "file": "keywords.md",
+      "x": 420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_license",
+      "type": "file",
+      "file": "license.md",
+      "x": 620,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_main",
+      "type": "file",
+      "file": "main.md",
+      "x": 820,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_name",
+      "type": "file",
+      "file": "name.md",
+      "x": 20,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_devdependencies_nodemon",
+      "type": "file",
+      "file": "nodemon.md",
+      "x": 220,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_nodemon",
+      "type": "file",
+      "file": "nodemon_1.md",
+      "x": 420,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_scripts",
+      "type": "file",
+      "file": "scripts.md",
+      "x": 620,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_scripts_start",
+      "type": "file",
+      "file": "start.md",
+      "x": 820,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_scripts_test",
+      "type": "file",
+      "file": "test.md",
+      "x": 20,
+      "y": 1200,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_type",
+      "type": "file",
+      "file": "type.md",
+      "x": 220,
+      "y": 1200,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_version",
+      "type": "file",
+      "file": "version.md",
+      "x": 420,
+      "y": 1200,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Data Pipeline Dependencies",
+      "x": 1620,
+      "y": 800,
+      "width": 1100,
+      "height": 520,
+      "color": "6"
+    },
+    {
+      "id": "n_data_pipeline_package_dependencies_anthropic_ai_sdk",
+      "type": "file",
+      "file": "@anthropic-aisdk.md",
+      "x": 1640,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_dependencies_supabase_supabase_js",
+      "type": "file",
+      "file": "@supabasesupabase-js_2.md",
+      "x": 1840,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_json_ref_supabase_supabase_js",
+      "type": "file",
+      "file": "@supabasesupabase-js_3.md",
+      "x": 2040,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_author",
+      "type": "file",
+      "file": "author_1.md",
+      "x": 2240,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package",
+      "type": "file",
+      "file": "data-pipelinepackage.json.md",
+      "x": 2440,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_dependencies",
+      "type": "file",
+      "file": "dependencies_1.md",
+      "x": 1640,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_description",
+      "type": "file",
+      "file": "description_1.md",
+      "x": 1840,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_dependencies_dotenv",
+      "type": "file",
+      "file": "dotenv_2.md",
+      "x": 2040,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_json_ref_dotenv",
+      "type": "file",
+      "file": "dotenv_3.md",
+      "x": 2240,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_scripts_extract",
+      "type": "file",
+      "file": "extract.md",
+      "x": 2440,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_keywords",
+      "type": "file",
+      "file": "keywords_1.md",
+      "x": 1640,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_license",
+      "type": "file",
+      "file": "license_1.md",
+      "x": 1840,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_scripts_load",
+      "type": "file",
+      "file": "load.md",
+      "x": 2040,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_main",
+      "type": "file",
+      "file": "main_1.md",
+      "x": 2240,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_name",
+      "type": "file",
+      "file": "name_1.md",
+      "x": 2440,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_scripts",
+      "type": "file",
+      "file": "scripts_1.md",
+      "x": 1640,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_scripts_test",
+      "type": "file",
+      "file": "test_1.md",
+      "x": 1840,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_type",
+      "type": "file",
+      "file": "type_1.md",
+      "x": 2040,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_data_pipeline_package_version",
+      "type": "file",
+      "file": "version_1.md",
+      "x": 2240,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "Product Requirements (PRD)",
+      "x": 3020,
+      "y": 800,
+      "width": 1100,
+      "height": 520,
+      "color": "1"
+    },
+    {
+      "id": "n_prepiq_pdf_data_sources",
+      "type": "file",
+      "file": "Candidate Public Data Sources.md",
+      "x": 3040,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_backend_data_models",
+      "type": "file",
+      "file": "Core Data Models Table (PDF).md",
+      "x": 3240,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_curation_approach",
+      "type": "file",
+      "file": "Curation Approach for the Hackathon.md",
+      "x": 3440,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_gap_priority_algorithm",
+      "type": "file",
+      "file": "Gap-Priority Scoring Algorithm (PDF).md",
+      "x": 3640,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_build_plan",
+      "type": "file",
+      "file": "Hackathon Build Plan (4 Phases, 3 Gates).md",
+      "x": 3840,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_rest_api_endpoints",
+      "type": "file",
+      "file": "Key REST API Endpoints Table (PDF).md",
+      "x": 3040,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_user_stories",
+      "type": "file",
+      "file": "Key User Stories.md",
+      "x": 3240,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_non_functional_requirements",
+      "type": "file",
+      "file": "Non-Functional Requirements Table (PDF).md",
+      "x": 3440,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_processing_pipeline",
+      "type": "file",
+      "file": "Offline Processing Pipeline (Ingest-Extract-Aggregate-Validate-Serve).md",
+      "x": 3640,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_executive_summary",
+      "type": "file",
+      "file": "PDF Executive Summary.md",
+      "x": 3840,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prd_goals",
+      "type": "file",
+      "file": "PRD Goals.md",
+      "x": 3040,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prd_success_criteria",
+      "type": "file",
+      "file": "PRD Success Criteria.md",
+      "x": 3240,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_task_phase4",
+      "type": "file",
+      "file": "Phase 4 \u00e2\u20ac\u201d Hours 30-36 Demo Prep + Deploy.md",
+      "x": 3440,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prd_objective",
+      "type": "file",
+      "file": "PrepIQ Objective.md",
+      "x": 3640,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_problem_statement",
+      "type": "file",
+      "file": "Problem Statement & Core Pain Points.md",
+      "x": 3840,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_risks_mitigations",
+      "type": "file",
+      "file": "Risks & Mitigations Table.md",
+      "x": 3040,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_success_metrics",
+      "type": "file",
+      "file": "Success Metrics (time-to-insight, coverage, personalization).md",
+      "x": 3240,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prd_target_audience",
+      "type": "file",
+      "file": "Target Audience (students, professionals).md",
+      "x": 3440,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_target_stakeholders",
+      "type": "file",
+      "file": "Target Stakeholders  Personas Table.md",
+      "x": 3640,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Tech Stack Decisions",
+      "x": 4420,
+      "y": 800,
+      "width": 1100,
+      "height": 520,
+      "color": "2"
+    },
+    {
+      "id": "n_architecture_llm_claude_openai",
+      "type": "file",
+      "file": "AILLM Claude API (default) or OpenAI API.md",
+      "x": 4440,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_hosting_backend_render_railway",
+      "type": "file",
+      "file": "Backend Hosting Render or Railway.md",
+      "x": 4640,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_backend_express",
+      "type": "file",
+      "file": "Backend Node.js + Express.md",
+      "x": 4840,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_confirmed_decisions",
+      "type": "file",
+      "file": "Confirmed Decisions (stack, LLM, decay).md",
+      "x": 5040,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_data_curation",
+      "type": "file",
+      "file": "Data Curation NodePython scripts + JSONCSV seed.md",
+      "x": 5240,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_supabase",
+      "type": "file",
+      "file": "DatabaseAuth Supabase (Postgres).md",
+      "x": 4440,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_index_html_entry",
+      "type": "file",
+      "file": "Frontend index.html Entry Point.md",
+      "x": 4640,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_frontend_react_vite_tailwind",
+      "type": "file",
+      "file": "Frontend React + Vite + Tailwind CSS.md",
+      "x": 4840,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_data_flow",
+      "type": "file",
+      "file": "Live Request Path + Offline Pipeline Data Flow.md",
+      "x": 5040,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_open_decisions",
+      "type": "file",
+      "file": "Open Decisions  Blockers.md",
+      "x": 5240,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_tech_stack",
+      "type": "file",
+      "file": "PrepIQ Tech Stack Table.md",
+      "x": 4440,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_readme_vite_react_template",
+      "type": "file",
+      "file": "React + Vite Template Scaffold.md",
+      "x": 4640,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_readme_react_compiler",
+      "type": "file",
+      "file": "React Compiler Note (not enabled).md",
+      "x": 4840,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_supabase_project_live",
+      "type": "file",
+      "file": "Supabase Project Live & Schema Run.md",
+      "x": 5040,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_system_architecture_diagram",
+      "type": "file",
+      "file": "System Architecture Diagram.md",
+      "x": 5240,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_trd_locked_decisions",
+      "type": "file",
+      "file": "TRD Locked Decisions (Claude API, linear 30-day decay).md",
+      "x": 4440,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_tech_stack",
+      "type": "file",
+      "file": "Tech Stack Table (PDF).md",
+      "x": 4640,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "Dev Conventions & Scope Rules",
+      "x": 0,
+      "y": 1500,
+      "width": 880,
+      "height": 420,
+      "color": "3"
+    },
+    {
+      "id": "n_claude_pre_code_checks",
+      "type": "file",
+      "file": "Before Writing Code Checklist.md",
+      "x": 20,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_code_style",
+      "type": "file",
+      "file": "Code Style Conventions.md",
+      "x": 220,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_rules_general_principles",
+      "type": "file",
+      "file": "General Principles (demo beats perfect code).md",
+      "x": 420,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_task_gate_check_failure",
+      "type": "file",
+      "file": "If a Gate Check Fails Policy.md",
+      "x": 620,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_rules_code_review",
+      "type": "file",
+      "file": "Lightweight Code Review Practice.md",
+      "x": 20,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_architecture_folder_structure",
+      "type": "file",
+      "file": "Monorepo Folder Structure.md",
+      "x": 220,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_naming_structure",
+      "type": "file",
+      "file": "Naming & Structure Conventions.md",
+      "x": 420,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prd_out_of_scope",
+      "type": "file",
+      "file": "Out of Scope (Hackathon).md",
+      "x": 620,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prepiq_pdf_feature_scope_out",
+      "type": "file",
+      "file": "Out-of-Scope  Future Roadmap (PDF).md",
+      "x": 20,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_task_phase0",
+      "type": "file",
+      "file": "Phase 0 \u00e2\u20ac\u201d Pre-Hackathon Prep.md",
+      "x": 220,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_trd_constraints",
+      "type": "file",
+      "file": "TRD Constraints.md",
+      "x": 420,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_task_tracks",
+      "type": "file",
+      "file": "Tracks ABCD Definition.md",
+      "x": 620,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "Frontend API Client",
+      "x": 1620,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "4"
+    },
+    {
+      "id": "n_frontend_src_api_client",
+      "type": "file",
+      "file": "client.js.md",
+      "x": 1640,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_api_client_getcompanies",
+      "type": "file",
+      "file": "getCompanies().md",
+      "x": 1840,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_api_client_getplan",
+      "type": "file",
+      "file": "getPlan().md",
+      "x": 2040,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_api_client_getroles",
+      "type": "file",
+      "file": "getRoles().md",
+      "x": 1640,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_api_client_getweightage",
+      "type": "file",
+      "file": "getWeightage().md",
+      "x": 1840,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_api_client_markreviewed",
+      "type": "file",
+      "file": "markReviewed().md",
+      "x": 2040,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_api_client_request",
+      "type": "file",
+      "file": "request().md",
+      "x": 1640,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_api_client_saveskills",
+      "type": "file",
+      "file": "saveSkills().md",
+      "x": 1840,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "UI Icon Assets",
+      "x": 3020,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "5"
+    },
+    {
+      "id": "n_frontend_public_icons_bluesky_icon",
+      "type": "file",
+      "file": "Bluesky Icon.md",
+      "x": 3040,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_public_icons_discord_icon",
+      "type": "file",
+      "file": "Discord Icon.md",
+      "x": 3240,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_public_icons_documentation_icon",
+      "type": "file",
+      "file": "Documentation Icon.md",
+      "x": 3440,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_public_icons_github_icon",
+      "type": "file",
+      "file": "GitHub Icon.md",
+      "x": 3040,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_public_icons_sprite_sheet",
+      "type": "file",
+      "file": "Icons Sprite Sheet (icons.svg).md",
+      "x": 3240,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_public_icons_social_icon",
+      "type": "file",
+      "file": "Social (Generic) Icon.md",
+      "x": 3440,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_public_icons_x_icon",
+      "type": "file",
+      "file": "X (Twitter) Icon.md",
+      "x": 3040,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "Linter Config",
+      "x": 4420,
+      "y": 1500,
+      "width": 660,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_frontend_oxlintrc_schema",
+      "type": "file",
+      "file": "$schema.md",
+      "x": 4440,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_oxlintrc",
+      "type": "file",
+      "file": "dot-oxlintrc.json.md",
+      "x": 4640,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_oxlintrc_plugins",
+      "type": "file",
+      "file": "plugins.md",
+      "x": 4840,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_oxlintrc_rules_react_only_export_components",
+      "type": "file",
+      "file": "reactonly-export-components.md",
+      "x": 4440,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_oxlintrc_rules_react_rules_of_hooks",
+      "type": "file",
+      "file": "reactrules-of-hooks.md",
+      "x": 4640,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_oxlintrc_rules",
+      "type": "file",
+      "file": "rules.md",
+      "x": 4840,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "Favicon Asset",
+      "x": 0,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_frontend_public_favicon_svg_icon",
+      "type": "file",
+      "file": "PrepIQ Favicon (Abstract Mark).md",
+      "x": 20,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "Vite Demo Hero Image",
+      "x": 1620,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_frontend_src_assets_hero_vite_scaffold_image",
+      "type": "file",
+      "file": "hero.png (Vite scaffold hero graphic).md",
+      "x": 1640,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "React Logo Asset",
+      "x": 3020,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_frontend_src_assets_react_svg_logo",
+      "type": "file",
+      "file": "React Logo (Vite Scaffold Asset).md",
+      "x": 3040,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "label": "Vite Logo Asset",
+      "x": 4420,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_frontend_src_assets_vite_svg_logo",
+      "type": "file",
+      "file": "Vite Logo (Default Scaffold Asset).md",
+      "x": 4440,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_backend_package_backend_package_author",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_author",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_dependencies",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_dependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_description",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_description",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_devdependencies",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_devdependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_json_ref_dotenv",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_json_ref_dotenv",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_json_ref_supabase_supabase_js",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_json_ref_supabase_supabase_js",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_keywords",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_keywords",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_license",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_license",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_main",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_main",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_name",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_name",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_scripts",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_scripts",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_type",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_backend_package_version",
+      "fromNode": "n_backend_package",
+      "toNode": "n_backend_package_version",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_ref_cors",
+      "fromNode": "n_backend_package",
+      "toNode": "n_ref_cors",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_ref_express",
+      "fromNode": "n_backend_package",
+      "toNode": "n_ref_express",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_ref_nodemon",
+      "fromNode": "n_backend_package",
+      "toNode": "n_ref_nodemon",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_scripts_backend_package_scripts_dev",
+      "fromNode": "n_backend_package_scripts",
+      "toNode": "n_backend_package_scripts_dev",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_scripts_backend_package_scripts_start",
+      "fromNode": "n_backend_package_scripts",
+      "toNode": "n_backend_package_scripts_start",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_scripts_backend_package_scripts_test",
+      "fromNode": "n_backend_package_scripts",
+      "toNode": "n_backend_package_scripts_test",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_dependencies_backend_package_dependencies_cors",
+      "fromNode": "n_backend_package_dependencies",
+      "toNode": "n_backend_package_dependencies_cors",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_dependencies_backend_package_dependencies_dotenv",
+      "fromNode": "n_backend_package_dependencies",
+      "toNode": "n_backend_package_dependencies_dotenv",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_dependencies_backend_package_dependencies_express",
+      "fromNode": "n_backend_package_dependencies",
+      "toNode": "n_backend_package_dependencies_express",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_dependencies_backend_package_dependencies_supabase_supabase_js",
+      "fromNode": "n_backend_package_dependencies",
+      "toNode": "n_backend_package_dependencies_supabase_supabase_js",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_cors_backend_src_server",
+      "fromNode": "n_ref_cors",
+      "toNode": "n_backend_src_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_express_backend_src_routes_companies",
+      "fromNode": "n_ref_express",
+      "toNode": "n_backend_src_routes_companies",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_express_backend_src_routes_roles",
+      "fromNode": "n_ref_express",
+      "toNode": "n_backend_src_routes_roles",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_express_backend_src_routes_users",
+      "fromNode": "n_ref_express",
+      "toNode": "n_backend_src_routes_users",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_express_backend_src_server",
+      "fromNode": "n_ref_express",
+      "toNode": "n_backend_src_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_package_devdependencies_backend_package_devdependencies_nodemon",
+      "fromNode": "n_backend_package_devdependencies",
+      "toNode": "n_backend_package_devdependencies_nodemon",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_scoring_backend_src_lib_scoring_decayedskill",
+      "fromNode": "n_backend_src_lib_scoring",
+      "toNode": "n_backend_src_lib_scoring_decayedskill",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_src_lib_scoring_backend_src_lib_scoring_ranktopics",
+      "fromNode": "n_backend_src_lib_scoring",
+      "toNode": "n_backend_src_lib_scoring_ranktopics",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_src_lib_scoring_backend_src_routes_users",
+      "fromNode": "n_backend_src_lib_scoring",
+      "toNode": "n_backend_src_routes_users",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_scoring_decayedskill_backend_src_lib_scoring_ranktopics",
+      "fromNode": "n_backend_src_lib_scoring_decayedskill",
+      "toNode": "n_backend_src_lib_scoring_ranktopics",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_scoring_ranktopics_backend_src_routes_users",
+      "fromNode": "n_backend_src_lib_scoring_ranktopics",
+      "toNode": "n_backend_src_routes_users",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_supabaseclient_backend_src_lib_supabaseclient_createclient",
+      "fromNode": "n_backend_src_lib_supabaseclient",
+      "toNode": "n_backend_src_lib_supabaseclient_createclient",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_supabaseclient_backend_src_lib_supabaseclient_supabase",
+      "fromNode": "n_backend_src_lib_supabaseclient",
+      "toNode": "n_backend_src_lib_supabaseclient_supabase",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_supabaseclient_ref_supabase_supabase_js",
+      "fromNode": "n_backend_src_lib_supabaseclient",
+      "toNode": "n_ref_supabase_supabase_js",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_supabaseclient_backend_src_routes_companies",
+      "fromNode": "n_backend_src_lib_supabaseclient",
+      "toNode": "n_backend_src_routes_companies",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_supabaseclient_backend_src_routes_roles",
+      "fromNode": "n_backend_src_lib_supabaseclient",
+      "toNode": "n_backend_src_routes_roles",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_lib_supabaseclient_backend_src_routes_users",
+      "fromNode": "n_backend_src_lib_supabaseclient",
+      "toNode": "n_backend_src_routes_users",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_companies_backend_src_routes_companies_express",
+      "fromNode": "n_backend_src_routes_companies",
+      "toNode": "n_backend_src_routes_companies_express",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_companies_backend_src_routes_companies_router",
+      "fromNode": "n_backend_src_routes_companies",
+      "toNode": "n_backend_src_routes_companies_router",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_companies_backend_src_routes_companies_supabase",
+      "fromNode": "n_backend_src_routes_companies",
+      "toNode": "n_backend_src_routes_companies_supabase",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_companies_backend_src_server",
+      "fromNode": "n_backend_src_routes_companies",
+      "toNode": "n_backend_src_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_roles_backend_src_routes_roles_express",
+      "fromNode": "n_backend_src_routes_roles",
+      "toNode": "n_backend_src_routes_roles_express",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_roles_backend_src_routes_roles_router",
+      "fromNode": "n_backend_src_routes_roles",
+      "toNode": "n_backend_src_routes_roles_router",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_roles_backend_src_routes_roles_supabase",
+      "fromNode": "n_backend_src_routes_roles",
+      "toNode": "n_backend_src_routes_roles_supabase",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_roles_backend_src_server",
+      "fromNode": "n_backend_src_routes_roles",
+      "toNode": "n_backend_src_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_users_backend_src_routes_users_express",
+      "fromNode": "n_backend_src_routes_users",
+      "toNode": "n_backend_src_routes_users_express",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_users_backend_src_routes_users_ranktopics",
+      "fromNode": "n_backend_src_routes_users",
+      "toNode": "n_backend_src_routes_users_ranktopics",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_users_backend_src_routes_users_router",
+      "fromNode": "n_backend_src_routes_users",
+      "toNode": "n_backend_src_routes_users_router",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_users_backend_src_routes_users_supabase",
+      "fromNode": "n_backend_src_routes_users",
+      "toNode": "n_backend_src_routes_users_supabase",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_routes_users_backend_src_server",
+      "fromNode": "n_backend_src_routes_users",
+      "toNode": "n_backend_src_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_server_backend_src_server_app",
+      "fromNode": "n_backend_src_server",
+      "toNode": "n_backend_src_server_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_server_backend_src_server_companiesrouter",
+      "fromNode": "n_backend_src_server",
+      "toNode": "n_backend_src_server_companiesrouter",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_server_backend_src_server_cors",
+      "fromNode": "n_backend_src_server",
+      "toNode": "n_backend_src_server_cors",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_server_backend_src_server_express",
+      "fromNode": "n_backend_src_server",
+      "toNode": "n_backend_src_server_express",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_server_backend_src_server_rolesrouter",
+      "fromNode": "n_backend_src_server",
+      "toNode": "n_backend_src_server_rolesrouter",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_src_server_backend_src_server_usersrouter",
+      "fromNode": "n_backend_src_server",
+      "toNode": "n_backend_src_server_usersrouter",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_data_pipeline_extract_anthropic",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_data_pipeline_extract_anthropic",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_data_pipeline_extract_extractone",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_data_pipeline_extract_extractone",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_data_pipeline_extract_fs",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_data_pipeline_extract_fs",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_data_pipeline_extract_out_dir",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_data_pipeline_extract_out_dir",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_data_pipeline_extract_path",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_data_pipeline_extract_path",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_data_pipeline_extract_run",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_data_pipeline_extract_run",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_data_pipeline_extract_seed_dir",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_data_pipeline_extract_seed_dir",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_ref_anthropic_ai_sdk",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_ref_anthropic_ai_sdk",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_ref_fs",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_ref_fs",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_ref_path",
+      "fromNode": "n_data_pipeline_extract",
+      "toNode": "n_ref_path",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_extract_extractone_data_pipeline_extract_run",
+      "fromNode": "n_data_pipeline_extract_extractone",
+      "toNode": "n_data_pipeline_extract_run",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_data_pipeline_load_to_db_createclient",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_data_pipeline_load_to_db_createclient",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_data_pipeline_load_to_db_fs",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_data_pipeline_load_to_db_fs",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_data_pipeline_load_to_db_loadone",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_data_pipeline_load_to_db_loadone",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_data_pipeline_load_to_db_path",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_data_pipeline_load_to_db_path",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_data_pipeline_load_to_db_run",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_data_pipeline_load_to_db_run",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_data_pipeline_load_to_db_structured_dir",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_data_pipeline_load_to_db_structured_dir",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_data_pipeline_load_to_db_supabase",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_data_pipeline_load_to_db_supabase",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_ref_fs",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_ref_fs",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_ref_path",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_ref_path",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_ref_supabase_supabase_js",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_ref_supabase_supabase_js",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_load_to_db_data_pipeline_load_to_db_rationale_36",
+      "fromNode": "n_data_pipeline_load_to_db",
+      "toNode": "n_data_pipeline_load_to_db_rationale_36",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_author",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_author",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_dependencies",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_dependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_description",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_description",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_json_ref_dotenv",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_json_ref_dotenv",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_json_ref_supabase_supabase_js",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_json_ref_supabase_supabase_js",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_keywords",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_keywords",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_license",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_license",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_main",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_main",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_name",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_name",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_scripts",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_scripts",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_type",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_data_pipeline_package_version",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_data_pipeline_package_version",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_ref_anthropic_ai_sdk",
+      "fromNode": "n_data_pipeline_package",
+      "toNode": "n_ref_anthropic_ai_sdk",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_scripts_data_pipeline_package_scripts_extract",
+      "fromNode": "n_data_pipeline_package_scripts",
+      "toNode": "n_data_pipeline_package_scripts_extract",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_scripts_data_pipeline_package_scripts_load",
+      "fromNode": "n_data_pipeline_package_scripts",
+      "toNode": "n_data_pipeline_package_scripts_load",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_scripts_data_pipeline_package_scripts_test",
+      "fromNode": "n_data_pipeline_package_scripts",
+      "toNode": "n_data_pipeline_package_scripts_test",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_dependencies_data_pipeline_package_dependencies_anthropic_ai_sdk",
+      "fromNode": "n_data_pipeline_package_dependencies",
+      "toNode": "n_data_pipeline_package_dependencies_anthropic_ai_sdk",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_dependencies_data_pipeline_package_dependencies_dotenv",
+      "fromNode": "n_data_pipeline_package_dependencies",
+      "toNode": "n_data_pipeline_package_dependencies_dotenv",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_package_dependencies_data_pipeline_package_dependencies_supabase_supabase_js",
+      "fromNode": "n_data_pipeline_package_dependencies",
+      "toNode": "n_data_pipeline_package_dependencies_supabase_supabase_js",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_data_pipeline_seed_companies_roles_createclient",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_data_pipeline_seed_companies_roles_createclient",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_data_pipeline_seed_companies_roles_fs",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_data_pipeline_seed_companies_roles_fs",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_data_pipeline_seed_companies_roles_path",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_data_pipeline_seed_companies_roles_path",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_data_pipeline_seed_companies_roles_rows",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_data_pipeline_seed_companies_roles_rows",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_data_pipeline_seed_companies_roles_run",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_data_pipeline_seed_companies_roles_run",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_data_pipeline_seed_companies_roles_supabase",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_data_pipeline_seed_companies_roles_supabase",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_ref_fs",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_ref_fs",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_ref_path",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_ref_path",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_data_pipeline_seed_companies_roles_ref_supabase_supabase_js",
+      "fromNode": "n_data_pipeline_seed_companies_roles",
+      "toNode": "n_ref_supabase_supabase_js",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_oxlintrc_frontend_oxlintrc_plugins",
+      "fromNode": "n_frontend_oxlintrc",
+      "toNode": "n_frontend_oxlintrc_plugins",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_oxlintrc_frontend_oxlintrc_rules",
+      "fromNode": "n_frontend_oxlintrc",
+      "toNode": "n_frontend_oxlintrc_rules",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_oxlintrc_frontend_oxlintrc_schema",
+      "fromNode": "n_frontend_oxlintrc",
+      "toNode": "n_frontend_oxlintrc_schema",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_oxlintrc_rules_frontend_oxlintrc_rules_react_only_export_components",
+      "fromNode": "n_frontend_oxlintrc_rules",
+      "toNode": "n_frontend_oxlintrc_rules_react_only_export_components",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_oxlintrc_rules_frontend_oxlintrc_rules_react_rules_of_hooks",
+      "fromNode": "n_frontend_oxlintrc_rules",
+      "toNode": "n_frontend_oxlintrc_rules_react_rules_of_hooks",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_frontend_package_dependencies",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_frontend_package_dependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_frontend_package_devdependencies",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_frontend_package_devdependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_frontend_package_name",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_frontend_package_name",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_frontend_package_private",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_frontend_package_private",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_frontend_package_scripts",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_frontend_package_scripts",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_frontend_package_type",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_frontend_package_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_frontend_package_version",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_frontend_package_version",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_autoprefixer",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_autoprefixer",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_oxlint",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_oxlint",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_postcss",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_postcss",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_react",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_react_dom",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_react_dom",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_tailwindcss",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_tailwindcss",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_tailwindcss_vite",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_tailwindcss_vite",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_types_react",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_types_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_types_react_dom",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_types_react_dom",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_vite",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_vite",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_ref_vitejs_plugin_react",
+      "fromNode": "n_frontend_package",
+      "toNode": "n_ref_vitejs_plugin_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_scripts_frontend_package_scripts_build",
+      "fromNode": "n_frontend_package_scripts",
+      "toNode": "n_frontend_package_scripts_build",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_scripts_frontend_package_scripts_dev",
+      "fromNode": "n_frontend_package_scripts",
+      "toNode": "n_frontend_package_scripts_dev",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_scripts_frontend_package_scripts_lint",
+      "fromNode": "n_frontend_package_scripts",
+      "toNode": "n_frontend_package_scripts_lint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_scripts_frontend_package_scripts_preview",
+      "fromNode": "n_frontend_package_scripts",
+      "toNode": "n_frontend_package_scripts_preview",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_dependencies_frontend_package_dependencies_react",
+      "fromNode": "n_frontend_package_dependencies",
+      "toNode": "n_frontend_package_dependencies_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_dependencies_frontend_package_dependencies_react_dom",
+      "fromNode": "n_frontend_package_dependencies",
+      "toNode": "n_frontend_package_dependencies_react_dom",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_dependencies_frontend_package_dependencies_tailwindcss_vite",
+      "fromNode": "n_frontend_package_dependencies",
+      "toNode": "n_frontend_package_dependencies_tailwindcss_vite",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_tailwindcss_vite_frontend_vite_config",
+      "fromNode": "n_ref_tailwindcss_vite",
+      "toNode": "n_frontend_vite_config",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_react_frontend_src_main",
+      "fromNode": "n_ref_react",
+      "toNode": "n_frontend_src_main",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_react_dom_frontend_src_main",
+      "fromNode": "n_ref_react_dom",
+      "toNode": "n_frontend_src_main",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_devdependencies_frontend_package_devdependencies_autoprefixer",
+      "fromNode": "n_frontend_package_devdependencies",
+      "toNode": "n_frontend_package_devdependencies_autoprefixer",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_devdependencies_frontend_package_devdependencies_oxlint",
+      "fromNode": "n_frontend_package_devdependencies",
+      "toNode": "n_frontend_package_devdependencies_oxlint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_devdependencies_frontend_package_devdependencies_postcss",
+      "fromNode": "n_frontend_package_devdependencies",
+      "toNode": "n_frontend_package_devdependencies_postcss",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_devdependencies_frontend_package_devdependencies_tailwindcss",
+      "fromNode": "n_frontend_package_devdependencies",
+      "toNode": "n_frontend_package_devdependencies_tailwindcss",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_devdependencies_frontend_package_devdependencies_types_react",
+      "fromNode": "n_frontend_package_devdependencies",
+      "toNode": "n_frontend_package_devdependencies_types_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_devdependencies_frontend_package_devdependencies_types_react_dom",
+      "fromNode": "n_frontend_package_devdependencies",
+      "toNode": "n_frontend_package_devdependencies_types_react_dom",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_devdependencies_frontend_package_devdependencies_vite",
+      "fromNode": "n_frontend_package_devdependencies",
+      "toNode": "n_frontend_package_devdependencies_vite",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_package_devdependencies_frontend_package_devdependencies_vitejs_plugin_react",
+      "fromNode": "n_frontend_package_devdependencies",
+      "toNode": "n_frontend_package_devdependencies_vitejs_plugin_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_vitejs_plugin_react_frontend_vite_config",
+      "fromNode": "n_ref_vitejs_plugin_react",
+      "toNode": "n_frontend_vite_config",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_vite_frontend_vite_config",
+      "fromNode": "n_ref_vite",
+      "toNode": "n_frontend_vite_config",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_app_frontend_src_app_app",
+      "fromNode": "n_frontend_src_app",
+      "toNode": "n_frontend_src_app_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_app_frontend_src_main",
+      "fromNode": "n_frontend_src_app",
+      "toNode": "n_frontend_src_main",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_app_app_frontend_src_main",
+      "fromNode": "n_frontend_src_app_app",
+      "toNode": "n_frontend_src_main",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_frontend_src_api_client_getcompanies",
+      "fromNode": "n_frontend_src_api_client",
+      "toNode": "n_frontend_src_api_client_getcompanies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_frontend_src_api_client_getplan",
+      "fromNode": "n_frontend_src_api_client",
+      "toNode": "n_frontend_src_api_client_getplan",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_frontend_src_api_client_getroles",
+      "fromNode": "n_frontend_src_api_client",
+      "toNode": "n_frontend_src_api_client_getroles",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_frontend_src_api_client_getweightage",
+      "fromNode": "n_frontend_src_api_client",
+      "toNode": "n_frontend_src_api_client_getweightage",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_frontend_src_api_client_markreviewed",
+      "fromNode": "n_frontend_src_api_client",
+      "toNode": "n_frontend_src_api_client_markreviewed",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_frontend_src_api_client_request",
+      "fromNode": "n_frontend_src_api_client",
+      "toNode": "n_frontend_src_api_client_request",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_frontend_src_api_client_saveskills",
+      "fromNode": "n_frontend_src_api_client",
+      "toNode": "n_frontend_src_api_client_saveskills",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_request_frontend_src_api_client_getcompanies",
+      "fromNode": "n_frontend_src_api_client_request",
+      "toNode": "n_frontend_src_api_client_getcompanies",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_request_frontend_src_api_client_getplan",
+      "fromNode": "n_frontend_src_api_client_request",
+      "toNode": "n_frontend_src_api_client_getplan",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_request_frontend_src_api_client_getroles",
+      "fromNode": "n_frontend_src_api_client_request",
+      "toNode": "n_frontend_src_api_client_getroles",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_request_frontend_src_api_client_getweightage",
+      "fromNode": "n_frontend_src_api_client_request",
+      "toNode": "n_frontend_src_api_client_getweightage",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_request_frontend_src_api_client_markreviewed",
+      "fromNode": "n_frontend_src_api_client_request",
+      "toNode": "n_frontend_src_api_client_markreviewed",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_api_client_request_frontend_src_api_client_saveskills",
+      "fromNode": "n_frontend_src_api_client_request",
+      "toNode": "n_frontend_src_api_client_saveskills",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_main_frontend_src_index",
+      "fromNode": "n_frontend_src_main",
+      "toNode": "n_frontend_src_index",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_architecture_backend_express",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_architecture_backend_express",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_architecture_data_curation",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_architecture_data_curation",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_architecture_frontend_react_vite_tailwind",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_architecture_frontend_react_vite_tailwind",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_architecture_hosting_backend_render_railway",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_architecture_hosting_backend_render_railway",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_architecture_hosting_frontend_vercel_netlify",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_architecture_hosting_frontend_vercel_netlify",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_architecture_llm_claude_openai",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_architecture_llm_claude_openai",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_architecture_supabase",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_architecture_supabase",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_prepiq_pdf_tech_stack",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_prepiq_pdf_tech_stack",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_memory_confirmed_decisions",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_memory_confirmed_decisions",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_tech_stack_prd_related_docs",
+      "fromNode": "n_architecture_tech_stack",
+      "toNode": "n_prd_related_docs",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_frontend_react_vite_tailwind_frontend_readme_vite_react_template",
+      "fromNode": "n_architecture_frontend_react_vite_tailwind",
+      "toNode": "n_frontend_readme_vite_react_template",
+      "label": "conceptually_related_to [INFERRED]"
+    },
+    {
+      "id": "e_architecture_supabase_architecture_data_flow",
+      "fromNode": "n_architecture_supabase",
+      "toNode": "n_architecture_data_flow",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_supabase_memory_supabase_project_live",
+      "fromNode": "n_architecture_supabase",
+      "toNode": "n_memory_supabase_project_live",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_llm_claude_openai_architecture_data_flow",
+      "fromNode": "n_architecture_llm_claude_openai",
+      "toNode": "n_architecture_data_flow",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_llm_claude_openai_memory_open_decisions",
+      "fromNode": "n_architecture_llm_claude_openai",
+      "toNode": "n_memory_open_decisions",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_llm_claude_openai_trd_locked_decisions",
+      "fromNode": "n_architecture_llm_claude_openai",
+      "toNode": "n_trd_locked_decisions",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_hosting_frontend_vercel_netlify_trd_non_functional_requirements",
+      "fromNode": "n_architecture_hosting_frontend_vercel_netlify",
+      "toNode": "n_trd_non_functional_requirements",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_folder_structure_architecture_data_flow",
+      "fromNode": "n_architecture_folder_structure",
+      "toNode": "n_architecture_data_flow",
+      "label": "conceptually_related_to [INFERRED]"
+    },
+    {
+      "id": "e_architecture_folder_structure_claude_naming_structure",
+      "fromNode": "n_architecture_folder_structure",
+      "toNode": "n_claude_naming_structure",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_folder_structure_claude_pre_code_checks",
+      "fromNode": "n_architecture_folder_structure",
+      "toNode": "n_claude_pre_code_checks",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_folder_structure_memory_current_state",
+      "fromNode": "n_architecture_folder_structure",
+      "toNode": "n_memory_current_state",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_folder_structure_task_phase0",
+      "fromNode": "n_architecture_folder_structure",
+      "toNode": "n_task_phase0",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_folder_structure_trd_constraints",
+      "fromNode": "n_architecture_folder_structure",
+      "toNode": "n_trd_constraints",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_data_flow_prepiq_pdf_system_architecture_diagram",
+      "fromNode": "n_architecture_data_flow",
+      "toNode": "n_prepiq_pdf_system_architecture_diagram",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_architecture_core_algorithm_architecture_component_connections",
+      "fromNode": "n_architecture_core_algorithm",
+      "toNode": "n_architecture_component_connections",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_core_algorithm_architecture_database_tables",
+      "fromNode": "n_architecture_core_algorithm",
+      "toNode": "n_architecture_database_tables",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_core_algorithm_prepiq_pdf_gap_priority_algorithm",
+      "fromNode": "n_architecture_core_algorithm",
+      "toNode": "n_prepiq_pdf_gap_priority_algorithm",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_architecture_core_algorithm_prd_core_features",
+      "fromNode": "n_architecture_core_algorithm",
+      "toNode": "n_prd_core_features",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_core_algorithm_task_phase1",
+      "fromNode": "n_architecture_core_algorithm",
+      "toNode": "n_task_phase1",
+      "label": "conceptually_related_to [INFERRED]"
+    },
+    {
+      "id": "e_architecture_core_algorithm_task_phase2",
+      "fromNode": "n_architecture_core_algorithm",
+      "toNode": "n_task_phase2",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_architecture_core_algorithm_task_phase3",
+      "fromNode": "n_architecture_core_algorithm",
+      "toNode": "n_task_phase3",
+      "label": "conceptually_related_to [INFERRED]"
+    }
+  ]
+}
