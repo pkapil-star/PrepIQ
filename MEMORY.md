@@ -36,9 +36,9 @@
   project URL + service_role key (gitignored, never committed). `backend/sql/schema.sql` has been
   run in the Supabase SQL editor — all core tables exist (verified: `companies` query succeeds,
   0 rows). `ANTHROPIC_API_KEY` in `data-pipeline/.env` is still a placeholder.
-- Not yet done: no seed data collected; no companies/roles rows exist so `load-to-db.js`'s
-  company/role lookup is still a TODO; `frontend/.env` not created yet (not blocking — frontend
-  has no UI calling the API yet).
+- Not yet done: no raw interview text collected yet, so `load-to-db.js`'s extraction-output
+  lookup is still a TODO; `frontend/.env` not created yet (not blocking — frontend has no UI
+  calling the API yet).
 - **Seed companies/roles locked and loaded.** 19 companies, 23 roles in `data-pipeline/seed/companies-roles.json`,
   pushed to Supabase via `data-pipeline/seed-companies-roles.js` (idempotent — safe to re-run).
   Verified live: 19 rows in `companies`, 23 in `roles`.
