@@ -32,22 +32,35 @@
   - Timeline: 2 days of prep before the hackathon, then a 36-hour build window
 - Backend `npm install` reported 3 high-severity audit warnings (transitive, via nodemon devDependency)
   — not addressed yet, low priority for a hackathon demo; re-check with `npm audit` if time allows.
-- Not yet done: Supabase project not created (no real `.env` values yet — only `.env.example`
-  placeholders exist in `frontend/`, `backend/`, `data-pipeline/`); no seed data collected; no
-  companies/roles rows exist so `load-to-db.js`'s company/role lookup is still a TODO.
-- Next concrete step: remaining Phase 0 tasks in `TASK.md` — create the real Supabase project and
-  run `backend/sql/schema.sql`, finalize the 15-20 seed companies list, curate raw interview text
-  into `data-pipeline/seed/`.
+- **Supabase project is live.** Real `backend/.env` and `data-pipeline/.env` filled with the
+  project URL + service_role key (gitignored, never committed). `backend/sql/schema.sql` has been
+  run in the Supabase SQL editor — all core tables exist (verified: `companies` query succeeds,
+  0 rows). `ANTHROPIC_API_KEY` in `data-pipeline/.env` is still a placeholder.
+- Not yet done: no seed data collected; no companies/roles rows exist so `load-to-db.js`'s
+  company/role lookup is still a TODO; `frontend/.env` not created yet (not blocking — frontend
+  has no UI calling the API yet).
+- **Seed companies/roles locked and loaded.** 19 companies, 23 roles in `data-pipeline/seed/companies-roles.json`,
+  pushed to Supabase via `data-pipeline/seed-companies-roles.js` (idempotent — safe to re-run).
+  Verified live: 19 rows in `companies`, 23 in `roles`.
+- Next concrete step: curate raw interview text per company/role into `data-pipeline/seed/`
+  (`.txt` files, picked up by `extract.js`), get an Anthropic API key into `data-pipeline/.env`.
 
 ## Open Decisions / Blockers
 
-- Final list of ~15-20 seed companies not yet chosen (see TASK.md Phase 0).
 - Team role assignment (who owns which track) not yet finalized among the 3-4 members.
+- Anthropic API key not yet obtained — blocks `data-pipeline/extract.js` from running for real.
 
 ## Change Log
 
 *(Newest first. One line per change: date — what changed — why.)*
 
+- 2026-10-04 — Locked 19-company/23-role seed list (`data-pipeline/seed/companies-roles.json`);
+  loaded into Supabase via new `data-pipeline/seed-companies-roles.js`. Added missing `dotenv`
+  dependency to `data-pipeline` (was required by `extract.js`/`load-to-db.js` but never installed).
+- 2026-10-04 — Created real Supabase project; ran `backend/sql/schema.sql` via SQL editor — core
+  tables confirmed live. Filled `backend/.env` and `data-pipeline/.env` with real project URL +
+  service_role key (caught and fixed a near-miss: real key was briefly pasted into the tracked
+  `backend/.env.example` instead of a gitignored `.env` — reverted before any commit).
 - 2026-10-04 — Scaffolded `frontend/`, `backend/`, `data-pipeline/` per ARCHITECTURE.md; added
   `backend/sql/schema.sql`; locked decay rate (linear, 30 days) and LLM provider (Claude) in
   TRD.md; git repo initialized. Phase 0 code-scaffold tasks done — Supabase project creation and

@@ -15,7 +15,7 @@ doesn't need a dedicated person until near the end).
 
 Goal: walk into the hackathon with a working skeleton and real seed data, not a blank repo.
 
-- [ ] Finalize the ~15-20 seed companies + roles list (fresher + experienced tracks) — whole team
+- [x] Finalize the ~15-20 seed companies + roles list (fresher + experienced tracks) — whole team
 - [ ] Collect/curate raw interview-experience text for those companies (GeeksforGeeks, LeetCode
       Discuss, AmbitionBox, personal/peer notes) — Track C
 - [ ] Create the Supabase project; set up the core tables from ARCHITECTURE.md — Track A
