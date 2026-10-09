@@ -1,8 +1,7 @@
 -- PrepIQ schema for the job-title-first flow (PRD.md, 2026-10-05). Run in the Supabase SQL editor.
--- Re-runnable: drops the old company-first tables, keeps `companies` and its seeded rows.
-
-drop table if exists revision_plans, user_skill_ratings, role_topic_weightage,
-  interview_experiences, roles cascade;
+-- Re-runnable: every statement is "if not exists" / "on conflict do nothing", so no data is lost.
+-- (The live DB was migrated from the old company-first tables on 2026-10-09 by dropping
+-- revision_plans, user_skill_ratings, role_topic_weightage, interview_experiences, roles, topics.)
 
 create table if not exists companies (
   id bigint generated always as identity primary key,

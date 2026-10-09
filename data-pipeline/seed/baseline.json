@@ -1,12 +1,489 @@
 {
-  "_readme": "Curated baseline. topics: every topic once (subject: DSA|OS|DBMS|CN|OOP|Role-specific; level: beginner|intermediate|advanced; est_hours: hours to learn from scratch). weights: job title slug -> experience bucket -> topic name -> 0..1 (omit or 0 = not in roadmap). Slugs: sde, fde, cloud, cyber, web, data-ml, devops, qa. Buckets: student_new, student_interviewed, student_intern, work_1_2, work_2_4, work_4plus. The two entries below are format examples only - replace them.",
+  "_readme": "Curated baseline. topics: every topic once (subject: DSA|OS|DBMS|CN|OOP|Role-specific; level: beginner|intermediate|advanced; est_hours: hours to learn from scratch). weights: job title slug -> experience bucket -> topic name -> 0..1 (how much the topic matters for that role and level, NOT how well the user knows it; omit or 0 = not in roadmap). Slugs: sde, fde, cloud, cyber, web, data-ml, devops, qa. Buckets: student_new, student_interviewed, student_intern, work_1_2, work_2_4, work_4plus. Drafted 2026-10-09: SDE track only; other job titles still to add.",
   "topics": [
-    { "name": "Arrays & Strings", "subject": "DSA", "level": "beginner", "est_hours": 8 },
-    { "name": "Process Scheduling", "subject": "OS", "level": "intermediate", "est_hours": 3 }
+    {
+      "name": "Time & Space Complexity",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 3
+    },
+    {
+      "name": "Arrays & Strings",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 8
+    },
+    {
+      "name": "Hashing (HashMap / HashSet)",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 4
+    },
+    {
+      "name": "Two Pointers",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 4
+    },
+    {
+      "name": "Sliding Window",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 4
+    },
+    {
+      "name": "Prefix Sum",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 2
+    },
+    {
+      "name": "Sorting & Binary Search",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 5
+    },
+    {
+      "name": "Recursion",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 5
+    },
+    {
+      "name": "Linked Lists",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 5
+    },
+    {
+      "name": "Stacks & Queues",
+      "subject": "DSA",
+      "level": "beginner",
+      "est_hours": 5
+    },
+    {
+      "name": "Binary Search on Answer",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 4
+    },
+    {
+      "name": "Monotonic Stack",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "Intervals",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "Trees & BST",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 8
+    },
+    {
+      "name": "Heaps / Priority Queue",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 4
+    },
+    {
+      "name": "Backtracking",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 6
+    },
+    {
+      "name": "Greedy",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 5
+    },
+    {
+      "name": "Graphs: BFS / DFS",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 8
+    },
+    {
+      "name": "Bit Manipulation",
+      "subject": "DSA",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "Dynamic Programming",
+      "subject": "DSA",
+      "level": "advanced",
+      "est_hours": 12
+    },
+    {
+      "name": "Advanced Graphs (Shortest Path, Topo Sort, MST, Union-Find)",
+      "subject": "DSA",
+      "level": "advanced",
+      "est_hours": 8
+    },
+    {
+      "name": "Tries",
+      "subject": "DSA",
+      "level": "advanced",
+      "est_hours": 3
+    },
+    {
+      "name": "Segment Tree / Fenwick Tree",
+      "subject": "DSA",
+      "level": "advanced",
+      "est_hours": 4
+    },
+    {
+      "name": "String Algorithms (KMP, Rabin-Karp)",
+      "subject": "DSA",
+      "level": "advanced",
+      "est_hours": 4
+    },
+    {
+      "name": "Processes & Threads",
+      "subject": "OS",
+      "level": "beginner",
+      "est_hours": 3
+    },
+    {
+      "name": "CPU Scheduling",
+      "subject": "OS",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "Synchronization & Deadlocks",
+      "subject": "OS",
+      "level": "intermediate",
+      "est_hours": 4
+    },
+    {
+      "name": "Memory Management & Paging",
+      "subject": "OS",
+      "level": "intermediate",
+      "est_hours": 4
+    },
+    {
+      "name": "SQL Queries & Joins",
+      "subject": "DBMS",
+      "level": "beginner",
+      "est_hours": 5
+    },
+    {
+      "name": "Normalization",
+      "subject": "DBMS",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "Indexing",
+      "subject": "DBMS",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "Transactions & ACID",
+      "subject": "DBMS",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "OSI & TCP/IP Model",
+      "subject": "CN",
+      "level": "beginner",
+      "est_hours": 3
+    },
+    {
+      "name": "TCP vs UDP",
+      "subject": "CN",
+      "level": "beginner",
+      "est_hours": 2
+    },
+    {
+      "name": "HTTP, HTTPS & DNS",
+      "subject": "CN",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "IP Addressing & Subnetting",
+      "subject": "CN",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "OOP Pillars",
+      "subject": "OOP",
+      "level": "beginner",
+      "est_hours": 3
+    },
+    {
+      "name": "SOLID Principles",
+      "subject": "OOP",
+      "level": "intermediate",
+      "est_hours": 3
+    },
+    {
+      "name": "Design Patterns",
+      "subject": "OOP",
+      "level": "advanced",
+      "est_hours": 4
+    }
   ],
   "weights": {
     "sde": {
-      "student_new": { "Arrays & Strings": 1.0, "Process Scheduling": 0.4 }
+      "student_new": {
+        "Time & Space Complexity": 1,
+        "Arrays & Strings": 1,
+        "Hashing (HashMap / HashSet)": 1,
+        "Two Pointers": 0.9,
+        "Sliding Window": 0.8,
+        "Prefix Sum": 0.7,
+        "Sorting & Binary Search": 1,
+        "Recursion": 0.9,
+        "Linked Lists": 0.9,
+        "Stacks & Queues": 0.9,
+        "Binary Search on Answer": 0.6,
+        "Monotonic Stack": 0.5,
+        "Intervals": 0.5,
+        "Trees & BST": 0.9,
+        "Heaps / Priority Queue": 0.7,
+        "Backtracking": 0.7,
+        "Greedy": 0.7,
+        "Graphs: BFS / DFS": 0.8,
+        "Bit Manipulation": 0.5,
+        "Dynamic Programming": 0.7,
+        "Advanced Graphs (Shortest Path, Topo Sort, MST, Union-Find)": 0.4,
+        "Tries": 0.3,
+        "Segment Tree / Fenwick Tree": 0.1,
+        "String Algorithms (KMP, Rabin-Karp)": 0.2,
+        "Processes & Threads": 0.7,
+        "CPU Scheduling": 0.6,
+        "Synchronization & Deadlocks": 0.6,
+        "Memory Management & Paging": 0.6,
+        "SQL Queries & Joins": 0.8,
+        "Normalization": 0.6,
+        "Indexing": 0.5,
+        "Transactions & ACID": 0.6,
+        "OSI & TCP/IP Model": 0.6,
+        "TCP vs UDP": 0.5,
+        "HTTP, HTTPS & DNS": 0.5,
+        "IP Addressing & Subnetting": 0.4,
+        "OOP Pillars": 0.8,
+        "SOLID Principles": 0.3,
+        "Design Patterns": 0.2
+      },
+      "student_interviewed": {
+        "Time & Space Complexity": 1,
+        "Arrays & Strings": 1,
+        "Hashing (HashMap / HashSet)": 1,
+        "Two Pointers": 0.9,
+        "Sliding Window": 0.9,
+        "Prefix Sum": 0.7,
+        "Sorting & Binary Search": 1,
+        "Recursion": 0.9,
+        "Linked Lists": 0.9,
+        "Stacks & Queues": 0.9,
+        "Binary Search on Answer": 0.7,
+        "Monotonic Stack": 0.6,
+        "Intervals": 0.6,
+        "Trees & BST": 0.9,
+        "Heaps / Priority Queue": 0.8,
+        "Backtracking": 0.7,
+        "Greedy": 0.7,
+        "Graphs: BFS / DFS": 0.8,
+        "Bit Manipulation": 0.5,
+        "Dynamic Programming": 0.8,
+        "Advanced Graphs (Shortest Path, Topo Sort, MST, Union-Find)": 0.5,
+        "Tries": 0.4,
+        "Segment Tree / Fenwick Tree": 0.2,
+        "String Algorithms (KMP, Rabin-Karp)": 0.2,
+        "Processes & Threads": 0.7,
+        "CPU Scheduling": 0.6,
+        "Synchronization & Deadlocks": 0.6,
+        "Memory Management & Paging": 0.6,
+        "SQL Queries & Joins": 0.8,
+        "Normalization": 0.6,
+        "Indexing": 0.5,
+        "Transactions & ACID": 0.6,
+        "OSI & TCP/IP Model": 0.6,
+        "TCP vs UDP": 0.5,
+        "HTTP, HTTPS & DNS": 0.5,
+        "IP Addressing & Subnetting": 0.4,
+        "OOP Pillars": 0.8,
+        "SOLID Principles": 0.4,
+        "Design Patterns": 0.3
+      },
+      "student_intern": {
+        "Time & Space Complexity": 1,
+        "Arrays & Strings": 1,
+        "Hashing (HashMap / HashSet)": 1,
+        "Two Pointers": 0.9,
+        "Sliding Window": 0.9,
+        "Prefix Sum": 0.7,
+        "Sorting & Binary Search": 1,
+        "Recursion": 0.9,
+        "Linked Lists": 0.9,
+        "Stacks & Queues": 0.9,
+        "Binary Search on Answer": 0.7,
+        "Monotonic Stack": 0.6,
+        "Intervals": 0.6,
+        "Trees & BST": 0.9,
+        "Heaps / Priority Queue": 0.8,
+        "Backtracking": 0.7,
+        "Greedy": 0.7,
+        "Graphs: BFS / DFS": 0.8,
+        "Bit Manipulation": 0.5,
+        "Dynamic Programming": 0.8,
+        "Advanced Graphs (Shortest Path, Topo Sort, MST, Union-Find)": 0.5,
+        "Tries": 0.4,
+        "Segment Tree / Fenwick Tree": 0.2,
+        "String Algorithms (KMP, Rabin-Karp)": 0.2,
+        "Processes & Threads": 0.7,
+        "CPU Scheduling": 0.5,
+        "Synchronization & Deadlocks": 0.6,
+        "Memory Management & Paging": 0.5,
+        "SQL Queries & Joins": 0.8,
+        "Normalization": 0.5,
+        "Indexing": 0.6,
+        "Transactions & ACID": 0.6,
+        "OSI & TCP/IP Model": 0.5,
+        "TCP vs UDP": 0.5,
+        "HTTP, HTTPS & DNS": 0.6,
+        "IP Addressing & Subnetting": 0.3,
+        "OOP Pillars": 0.8,
+        "SOLID Principles": 0.5,
+        "Design Patterns": 0.4
+      },
+      "work_1_2": {
+        "Time & Space Complexity": 0.8,
+        "Arrays & Strings": 0.9,
+        "Hashing (HashMap / HashSet)": 0.9,
+        "Two Pointers": 0.9,
+        "Sliding Window": 0.9,
+        "Prefix Sum": 0.6,
+        "Sorting & Binary Search": 0.9,
+        "Recursion": 0.7,
+        "Linked Lists": 0.7,
+        "Stacks & Queues": 0.8,
+        "Binary Search on Answer": 0.8,
+        "Monotonic Stack": 0.7,
+        "Intervals": 0.7,
+        "Trees & BST": 0.9,
+        "Heaps / Priority Queue": 0.9,
+        "Backtracking": 0.7,
+        "Greedy": 0.7,
+        "Graphs: BFS / DFS": 0.9,
+        "Bit Manipulation": 0.4,
+        "Dynamic Programming": 0.9,
+        "Advanced Graphs (Shortest Path, Topo Sort, MST, Union-Find)": 0.7,
+        "Tries": 0.5,
+        "Segment Tree / Fenwick Tree": 0.2,
+        "String Algorithms (KMP, Rabin-Karp)": 0.2,
+        "Processes & Threads": 0.5,
+        "CPU Scheduling": 0.3,
+        "Synchronization & Deadlocks": 0.5,
+        "Memory Management & Paging": 0.3,
+        "SQL Queries & Joins": 0.7,
+        "Normalization": 0.3,
+        "Indexing": 0.6,
+        "Transactions & ACID": 0.6,
+        "OSI & TCP/IP Model": 0.3,
+        "TCP vs UDP": 0.4,
+        "HTTP, HTTPS & DNS": 0.5,
+        "IP Addressing & Subnetting": 0.2,
+        "OOP Pillars": 0.6,
+        "SOLID Principles": 0.6,
+        "Design Patterns": 0.5
+      },
+      "work_2_4": {
+        "Time & Space Complexity": 0.7,
+        "Arrays & Strings": 0.8,
+        "Hashing (HashMap / HashSet)": 0.8,
+        "Two Pointers": 0.8,
+        "Sliding Window": 0.8,
+        "Prefix Sum": 0.5,
+        "Sorting & Binary Search": 0.8,
+        "Recursion": 0.6,
+        "Linked Lists": 0.6,
+        "Stacks & Queues": 0.7,
+        "Binary Search on Answer": 0.8,
+        "Monotonic Stack": 0.7,
+        "Intervals": 0.7,
+        "Trees & BST": 0.9,
+        "Heaps / Priority Queue": 0.9,
+        "Backtracking": 0.6,
+        "Greedy": 0.7,
+        "Graphs: BFS / DFS": 0.9,
+        "Bit Manipulation": 0.3,
+        "Dynamic Programming": 0.9,
+        "Advanced Graphs (Shortest Path, Topo Sort, MST, Union-Find)": 0.7,
+        "Tries": 0.6,
+        "Segment Tree / Fenwick Tree": 0.3,
+        "String Algorithms (KMP, Rabin-Karp)": 0.2,
+        "Processes & Threads": 0.5,
+        "CPU Scheduling": 0.2,
+        "Synchronization & Deadlocks": 0.5,
+        "Memory Management & Paging": 0.3,
+        "SQL Queries & Joins": 0.6,
+        "Normalization": 0.3,
+        "Indexing": 0.7,
+        "Transactions & ACID": 0.7,
+        "OSI & TCP/IP Model": 0.3,
+        "TCP vs UDP": 0.4,
+        "HTTP, HTTPS & DNS": 0.5,
+        "IP Addressing & Subnetting": 0.1,
+        "OOP Pillars": 0.5,
+        "SOLID Principles": 0.7,
+        "Design Patterns": 0.7
+      },
+      "work_4plus": {
+        "Time & Space Complexity": 0.6,
+        "Arrays & Strings": 0.7,
+        "Hashing (HashMap / HashSet)": 0.7,
+        "Two Pointers": 0.7,
+        "Sliding Window": 0.7,
+        "Prefix Sum": 0.5,
+        "Sorting & Binary Search": 0.7,
+        "Recursion": 0.5,
+        "Linked Lists": 0.5,
+        "Stacks & Queues": 0.6,
+        "Binary Search on Answer": 0.7,
+        "Monotonic Stack": 0.6,
+        "Intervals": 0.6,
+        "Trees & BST": 0.8,
+        "Heaps / Priority Queue": 0.8,
+        "Backtracking": 0.5,
+        "Greedy": 0.6,
+        "Graphs: BFS / DFS": 0.8,
+        "Bit Manipulation": 0.3,
+        "Dynamic Programming": 0.8,
+        "Advanced Graphs (Shortest Path, Topo Sort, MST, Union-Find)": 0.6,
+        "Tries": 0.5,
+        "Segment Tree / Fenwick Tree": 0.2,
+        "String Algorithms (KMP, Rabin-Karp)": 0.2,
+        "Processes & Threads": 0.5,
+        "CPU Scheduling": 0.2,
+        "Synchronization & Deadlocks": 0.5,
+        "Memory Management & Paging": 0.3,
+        "SQL Queries & Joins": 0.6,
+        "Normalization": 0.3,
+        "Indexing": 0.7,
+        "Transactions & ACID": 0.7,
+        "OSI & TCP/IP Model": 0.3,
+        "TCP vs UDP": 0.4,
+        "HTTP, HTTPS & DNS": 0.5,
+        "IP Addressing & Subnetting": 0.1,
+        "OOP Pillars": 0.5,
+        "SOLID Principles": 0.8,
+        "Design Patterns": 0.8
+      }
     }
   }
 }

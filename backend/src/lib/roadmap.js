@@ -50,17 +50,17 @@ function buildRoadmap(topics, { weeks, hoursPerDay }) {
     .filter((t) => kept.has(t.topic_id))
     .sort((a, b) => LEVEL_ORDER[a.level] - LEVEL_ORDER[b.level] || b.priority - a.priority)
 
+  // A topic goes in the week where its study time starts, so the plan never exceeds `weeks`
+  // (a long topic can spill into the next week rather than leaving gaps).
   const plan = []
-  let current = { week: 1, hours: 0, topics: [] }
+  let elapsed = 0
   for (const t of ordered) {
-    if (current.hours + t.hours > weekCapacity && current.topics.length > 0) {
-      plan.push(current)
-      current = { week: current.week + 1, hours: 0, topics: [] }
-    }
-    current.topics.push(t)
-    current.hours += t.hours
+    const week = Math.min(weeks, Math.floor(elapsed / weekCapacity) + 1)
+    if (!plan.length || plan[plan.length - 1].week !== week) plan.push({ week, hours: 0, topics: [] })
+    plan[plan.length - 1].topics.push(t)
+    plan[plan.length - 1].hours += t.hours
+    elapsed += t.hours
   }
-  if (current.topics.length > 0) plan.push(current)
 
   return {
     budget_hours: budget,
