@@ -11,8 +11,7 @@ that covers DSA and core CS subjects in the right proportions for *you*, sized t
 have before your interview.
 
 > **Status:** in active development (pre-hackathon). Backend and data model are in place; the
-> frontend screens and the curated topic data are next. See [MEMORY.md](MEMORY.md) for the
-> current state.
+> frontend screens and the curated topic data are next.
 
 ## How it works
 
@@ -125,7 +124,6 @@ Requires Node.js 18+ and a Supabase project.
 - [ARCHITECTURE.md](ARCHITECTURE.md) — stack, folder layout, data flow, tables
 - [TASK.md](TASK.md) — build plan
 - [RULES.md](RULES.md) — development rules
-- [MEMORY.md](MEMORY.md) — current project state and change log
 
 ## Roadmap after the hackathon
 
