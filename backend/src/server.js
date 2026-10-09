@@ -3,8 +3,8 @@ const cors = require('cors')
 require('dotenv').config()
 
 const companiesRouter = require('./routes/companies')
-const rolesRouter = require('./routes/roles')
-const usersRouter = require('./routes/users')
+const jobTitlesRouter = require('./routes/jobTitles')
+const meRouter = require('./routes/me')
 
 const app = express()
 
@@ -12,8 +12,8 @@ app.use(cors())
 app.use(express.json())
 
 app.use('/companies', companiesRouter)
-app.use('/roles', rolesRouter)
-app.use('/users', usersRouter)
+app.use('/job-titles', jobTitlesRouter)
+app.use('/me', meRouter)
 
 app.use((req, res) => {
   res.status(404).json({ error: 'Not found' })

@@ -99,14 +99,17 @@ prepiq/
 │   └── package.json
 ├── backend/                   # Express API
 │   ├── src/
-│   │   ├── routes/             # One file per resource (companies, roles, plan, skills)
-│   │   ├── lib/                  # gap-priority scoring, decay logic, supabase client
+│   │   ├── routes/             # One file per resource (companies, jobTitles, me)
+│   │   ├── lib/                  # roadmap builder, auth middleware, supabase client
 │   │   └── server.js
 │   └── package.json
 ├── data-pipeline/             # Offline LLM extraction pipeline (run before/during hackathon, not per-request)
-│   ├── seed/                   # Curated raw interview-experience text per company/role
-│   ├── extract.js              # Calls the LLM, writes structured output
-│   └── load-to-db.js           # Pushes structured output into Supabase
+│   ├── seed/                   # baseline.json, companies-roles.json, raw interview text (*.txt)
+│   ├── structured/             # Extracted per-company weights (<company>__<title>.json)
+│   ├── seed-baseline.js        # Loads curated topics + baseline weights
+│   ├── seed-companies-roles.js # Loads companies
+│   ├── extract.js              # Scripted LLM extraction (needs API key; normally done in a Claude Code session)
+│   └── load-to-db.js           # Pushes structured/ into company_topic_weights
 ├── docs/                        # (optional) anything beyond the root-level planning docs
 ├── PRD.md
 ├── ARCHITECTURE.md
@@ -144,38 +147,44 @@ Curated interview-experience text (data-pipeline/seed/)
 The backend's core ranked-plan endpoint only ever reads the already-structured tables in
 Supabase — it never waits on an LLM call. This keeps the demo fast and reliable.
 
-## Core Algorithm (summary — see PRD.md for full context)
+## Core Algorithm (summary — full rules in TRD.md "Algorithm Requirements")
 
-For a chosen company + role + experience level, each topic gets a priority score:
+For the user's job title + experience bucket (+ optional company), each topic gets a priority:
 
 ```
 P_t = w_t * (1 - s_t)
 ```
 
-- `w_t` = that topic's weightage for the selected role (0-1, from the `role_topic_weightage` table)
-- `s_t` = the user's normalized skill rating for that topic (0-1, self-rated or quiz-derived)
-- Topics are sorted descending by `P_t` to produce the ranked revision list
-- `s_t` decays linearly the longer since `last_reviewed_at`, which resurfaces forgotten topics
+- `w_t` = baseline weight for job title x bucket (`baseline_weights`), blended 50/50 with
+  `company_topic_weights` when the user picked a company that has interview data
+- `s_t` = the user's self-assessment for that topic (0-1, `user_topics.self_rating`)
+- Highest-priority topics are kept until the time budget (weeks x 7 x hours/day) is full, then
+  laid out beginner -> advanced and packed into weeks (`backend/src/lib/roadmap.js`)
+- Topics ticked done more than 30 days ago come back as revision
 
 ## Component Connections
 
-- **Frontend `api/` layer** talks only to the Backend API — never directly to Supabase from the
-  browser, so the scoring logic and the LLM key stay server-side.
+- **Frontend `api/` layer** talks only to the Backend API for data. The browser uses Supabase
+  directly only for login (anon key); it sends the session JWT to the backend.
 - **Backend `routes/`** are thin — they validate input, call a function in `lib/`, and return JSON.
-- **Backend `lib/`** holds the actual logic (scoring, decay, Supabase queries) so it's testable
-  and reusable across routes.
+  `/me/*` routes go through `lib/auth.js`, which verifies the JWT.
+- **Backend `lib/`** holds the actual logic (roadmap building, auth, Supabase client) so it's
+  testable and reusable across routes.
 - **`data-pipeline/`** is intentionally separate from `backend/` — it runs as a script, not as
   part of the live server, and only needs to be re-run when seed data changes.
 
 ## Core Database Tables (Supabase/Postgres)
 
+DDL: `backend/sql/schema.sql`.
+
 | Table | Key fields |
 | --- | --- |
 | `companies` | id, name, industry |
-| `roles` | id, company_id, title, experience_level |
-| `topics` | id, name, category |
-| `role_topic_weightage` | role_id, topic_id, weight, round_type, source_count |
-| `interview_experiences` | id, company_id, role_id, raw_text, source_url, date_posted |
-| `users` | id (from Supabase Auth), email |
-| `user_skill_ratings` | user_id, topic_id, self_rating, last_reviewed_at |
-| `revision_plans` | user_id, role_id, generated_at, plan_json |
+| `job_titles` | id, slug, name (8 seeded tracks) |
+| `topics` | id, name, subject, level, est_hours |
+| `baseline_weights` | job_title_id, experience_bucket, topic_id, weight |
+| `company_topic_weights` | company_id, job_title_id, topic_id, weight, source_count |
+| `interview_experiences` | id, company_id, job_title_id, raw_text, source_url, date_posted |
+| `user_profiles` | user_id (Supabase Auth), experience_bucket, job_title_id, company_id, weeks, hours_per_day |
+| `user_topics` | user_id, topic_id, self_rating, completed_at |
+| `roadmaps` | id, user_id, generated_at, roadmap_json |

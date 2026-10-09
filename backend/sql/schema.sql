@@ -1,56 +1,97 @@
--- Core tables per ARCHITECTURE.md "Core Database Tables". Run once in the Supabase SQL editor.
+-- PrepIQ schema for the job-title-first flow (PRD.md, 2026-10-05). Run in the Supabase SQL editor.
+-- Re-runnable: drops the old company-first tables, keeps `companies` and its seeded rows.
 
-create table companies (
+drop table if exists revision_plans, user_skill_ratings, role_topic_weightage,
+  interview_experiences, roles cascade;
+
+create table if not exists companies (
   id bigint generated always as identity primary key,
-  name text not null,
+  name text not null unique,
   industry text
 );
 
-create table roles (
+create table if not exists job_titles (
   id bigint generated always as identity primary key,
-  company_id bigint not null references companies(id) on delete cascade,
-  title text not null,
-  experience_level text not null check (experience_level in ('fresher', '1-3_yoe', '4plus_yoe'))
+  slug text not null unique,
+  name text not null
 );
 
-create table topics (
+insert into job_titles (slug, name) values
+  ('sde', 'SDE / Software Engineer'),
+  ('fde', 'Forward Deployed Engineer'),
+  ('cloud', 'Cloud Engineer'),
+  ('cyber', 'Cybersecurity Engineer'),
+  ('web', 'Frontend / Backend / Full-stack'),
+  ('data-ml', 'Data / ML Engineer'),
+  ('devops', 'DevOps / SRE'),
+  ('qa', 'QA / SDET')
+on conflict (slug) do nothing;
+
+-- level orders the roadmap beginner -> advanced; est_hours sizes it into weeks.
+create table if not exists topics (
   id bigint generated always as identity primary key,
   name text not null unique,
-  category text
+  subject text not null check (subject in ('DSA', 'OS', 'DBMS', 'CN', 'OOP', 'Role-specific')),
+  level text not null check (level in ('beginner', 'intermediate', 'advanced')),
+  est_hours numeric not null check (est_hours > 0)
 );
 
-create table role_topic_weightage (
-  role_id bigint not null references roles(id) on delete cascade,
+-- Experience buckets, used as plain text in the tables below:
+--   student_new, student_interviewed, student_intern, work_1_2, work_2_4, work_4plus
+
+-- Curated baseline weight of each topic per job title x experience bucket.
+create table if not exists baseline_weights (
+  job_title_id bigint not null references job_titles(id) on delete cascade,
+  experience_bucket text not null check (experience_bucket in
+    ('student_new', 'student_interviewed', 'student_intern', 'work_1_2', 'work_2_4', 'work_4plus')),
   topic_id bigint not null references topics(id) on delete cascade,
   weight numeric not null check (weight >= 0 and weight <= 1),
-  round_type text,
-  source_count int default 1,
-  primary key (role_id, topic_id)
+  primary key (job_title_id, experience_bucket, topic_id)
 );
 
-create table interview_experiences (
+-- Company adjustment, extracted from real interview posts.
+create table if not exists company_topic_weights (
+  company_id bigint not null references companies(id) on delete cascade,
+  job_title_id bigint not null references job_titles(id) on delete cascade,
+  topic_id bigint not null references topics(id) on delete cascade,
+  weight numeric not null check (weight >= 0 and weight <= 1),
+  source_count int not null default 1,
+  primary key (company_id, job_title_id, topic_id)
+);
+
+create table if not exists interview_experiences (
   id bigint generated always as identity primary key,
   company_id bigint references companies(id) on delete cascade,
-  role_id bigint references roles(id) on delete cascade,
+  job_title_id bigint references job_titles(id) on delete cascade,
   raw_text text not null,
   source_url text,
   date_posted date
 );
 
--- users table is managed by Supabase Auth (auth.users); user_skill_ratings references it directly.
+-- users live in Supabase Auth (auth.users).
+create table if not exists user_profiles (
+  user_id uuid primary key references auth.users(id) on delete cascade,
+  experience_bucket text not null check (experience_bucket in
+    ('student_new', 'student_interviewed', 'student_intern', 'work_1_2', 'work_2_4', 'work_4plus')),
+  job_title_id bigint not null references job_titles(id),
+  company_id bigint references companies(id),
+  weeks int not null check (weeks between 1 and 52),
+  hours_per_day numeric not null check (hours_per_day > 0 and hours_per_day <= 16),
+  updated_at timestamptz not null default now()
+);
 
-create table user_skill_ratings (
+-- Self-assessment rating + progress. completed_at older than 30 days = flagged for revision.
+create table if not exists user_topics (
   user_id uuid not null references auth.users(id) on delete cascade,
   topic_id bigint not null references topics(id) on delete cascade,
-  self_rating numeric not null check (self_rating >= 0 and self_rating <= 1),
-  last_reviewed_at timestamptz,
+  self_rating numeric not null default 0 check (self_rating >= 0 and self_rating <= 1),
+  completed_at timestamptz,
   primary key (user_id, topic_id)
 );
 
-create table revision_plans (
+create table if not exists roadmaps (
   id bigint generated always as identity primary key,
   user_id uuid not null references auth.users(id) on delete cascade,
-  role_id bigint not null references roles(id) on delete cascade,
   generated_at timestamptz not null default now(),
-  plan_json jsonb not null
+  roadmap_json jsonb not null
 );

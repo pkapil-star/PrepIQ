@@ -12,47 +12,67 @@
 
 ## Current State
 
-*(Last updated: 2026-10-04)*
+*(Last updated: 2026-10-05)*
 
-- Phase: **Pre-hackathon prep** (hackathon starts in ~2 days; 36-hour build window once it starts).
-- Repo scaffolded per ARCHITECTURE.md: `frontend/` (React + Vite + Tailwind v4), `backend/`
-  (Express, with `/companies`, `/roles/:id/weightage`, `/users/:id/skills`, `/users/:id/plan`,
-  `/users/:id/topics/:topicId/review` routes wired to Supabase + `lib/scoring.js`), `data-pipeline/`
-  (`extract.js` + `load-to-db.js` stubs calling Claude + Supabase). `backend/sql/schema.sql` has
-  the core tables ready to run in Supabase's SQL editor. Git repo initialized, `.gitignore` added.
-- Confirmed decisions so far:
-  - Backend: Node.js + Express
-  - Frontend: React + Vite + Tailwind CSS (**v4** — no `tailwind.config.js`/`postcss.config.js`;
-    uses `@tailwindcss/vite` plugin + `@import "tailwindcss";` in `index.css`. ARCHITECTURE.md's
-    `npx tailwindcss init -p` step is stale for v4 — don't follow it literally.)
-  - Database/Auth: Supabase (Postgres-based, hosted, built-in auth — avoids Docker/self-hosting setup time)
-  - LLM provider: Claude API (`claude-sonnet-5`), locked in TRD.md
-  - Decay model: linear, 30-day window — locked in TRD.md and implemented in `backend/src/lib/scoring.js`
-  - Team size: 3-4 people
-  - Timeline: 2 days of prep before the hackathon, then a 36-hour build window
-- Backend `npm install` reported 3 high-severity audit warnings (transitive, via nodemon devDependency)
-  — not addressed yet, low priority for a hackathon demo; re-check with `npm audit` if time allows.
-- **Supabase project is live.** Real `backend/.env` and `data-pipeline/.env` filled with the
-  project URL + service_role key (gitignored, never committed). `backend/sql/schema.sql` has been
-  run in the Supabase SQL editor — all core tables exist (verified: `companies` query succeeds,
-  0 rows). `ANTHROPIC_API_KEY` in `data-pipeline/.env` is still a placeholder.
-- Not yet done: no raw interview text collected yet, so `load-to-db.js`'s extraction-output
-  lookup is still a TODO; `frontend/.env` not created yet (not blocking — frontend has no UI
-  calling the API yet).
-- **Seed companies/roles locked and loaded.** 19 companies, 23 roles in `data-pipeline/seed/companies-roles.json`,
-  pushed to Supabase via `data-pipeline/seed-companies-roles.js` (idempotent — safe to re-run).
-  Verified live: 19 rows in `companies`, 23 in `roles`.
-- Next concrete step: curate raw interview text per company/role into `data-pipeline/seed/`
-  (`.txt` files, picked up by `extract.js`), get an Anthropic API key into `data-pipeline/.env`.
+- Phase: **Pre-hackathon prep**, solo build. Product is now **job-title-first roadmap** (see
+  PRD.md "User Flow"); PRD, TRD, ARCHITECTURE all rewritten to match.
+- Stack: Node + Express backend, React + Vite + Tailwind **v4** frontend (no `tailwind.config.js`;
+  uses `@tailwindcss/vite` — ARCHITECTURE.md's `npx tailwindcss init -p` step is stale), Supabase
+  (Postgres + Auth). Extraction runs in a Claude Code session — no Anthropic API key needed.
+- **Backend redesigned (code written, not yet run against the DB):**
+  - `backend/sql/schema.sql` — new schema: `job_titles` (8 seeded), `topics` (subject, level,
+    est_hours), `baseline_weights`, `company_topic_weights`, `interview_experiences`,
+    `user_profiles`, `user_topics`, `roadmaps`. Keeps `companies`; drops old `roles`,
+    `role_topic_weightage`, `user_skill_ratings`, `revision_plans`. **Not yet run in Supabase**
+    (drops the 23 seeded `roles` rows — waiting on user OK).
+  - Routes: `GET /job-titles`, `GET /companies`, `GET /job-titles/:id/topics?bucket=`, and
+    JWT-protected `/me/profile`, `/me/skills`, `/me/roadmap`, `/me/topics/:id/complete`.
+  - `lib/roadmap.js` — roadmap builder (tested on sample data); `lib/auth.js` — JWT check.
+  - Old `routes/roles.js`, `routes/users.js`, `lib/scoring.js` deleted.
+- Data pipeline: `seed-companies-roles.js` now seeds companies only (19 live in Supabase).
+  `seed/baseline.json` is a **template** (2 example rows) — user is writing the real curated topics
+  + weights; `seed-baseline.js` loads it. `load-to-db.js` loads `structured/<company>__<title>.json`
+  into `company_topic_weights`.
+- Frontend: `api/client.js` rewritten for the new routes (takes Supabase access token). No UI
+  screens yet; `@supabase/supabase-js` not yet installed in `frontend/`; no `frontend/.env`.
+- Backend `npm install` has 3 high-severity audit warnings (transitive via nodemon) — low priority.
+- Next steps: (1) run new `schema.sql` in Supabase; (2) fill `seed/baseline.json` and run
+  `seed-baseline.js`; (3) build frontend screens: login, profile, self-assessment, roadmap,
+  download, progress; (4) curate interview posts for company blending.
 
 ## Open Decisions / Blockers
 
-- Team role assignment (who owns which track) not yet finalized among the 3-4 members.
-- Anthropic API key not yet obtained — blocks `data-pipeline/extract.js` from running for real.
+- Team is solo — if time runs short, cut auth first (demo user), then company blending.
+- `seed/baseline.json` real content (topics x 8 job titles x 6 buckets) not written yet — blocks
+  meaningful roadmaps.
+- Self-assessment MCQ options and their 0-1 mapping not designed yet.
+- PDF/DOCX generation method not chosen (browser print vs a library).
 
 ## Change Log
 
 *(Newest first. One line per change: date — what changed — why.)*
+
+- 2026-10-05 — Backend + docs redesigned for the job-title-first flow: new `schema.sql` (not yet
+  run), routes `jobTitles.js` + `me.js`, `lib/roadmap.js` + `lib/auth.js`, deleted old
+  roles/users/scoring files; TRD and ARCHITECTURE rewritten; `seed/baseline.json` template +
+  `seed-baseline.js`; `load-to-db.js` now loads company weights; frontend `api/client.js` updated.
+  Decisions: no System Design/Behavioral, 50/50 company blend, user writes baseline weights.
+- 2026-10-05 — **Product pivot: job-title-first roadmap.** PRD.md rewritten. Flow: login ->
+  student (first-timer / interviewed / internship) or working (1-2 / 2-4 / 4+ yrs) -> job title
+  (8 tracks: SDE, FDE, Cloud, Cyber, Frontend/Backend/Full-stack, Data/ML, DevOps/SRE, QA/SDET)
+  -> optional company -> weeks + hours/day -> self-assessment form (quiz dropped) -> week-by-week
+  beginner-to-advanced roadmap (template, no live LLM) -> PDF + DOCX download (paid later) ->
+  progress tracker with 30-day revision flag. Weights = curated baseline per title x experience +
+  interview-data adjustment. Subjects: DSA, OS, DBMS, CN, OOP, role-specific. **Stale now:** TRD
+  FRs + API contract, ARCHITECTURE tables, `backend/sql/schema.sql` (roles tied to company,
+  old experience buckets), backend routes.
+- 2026-10-05 — More decisions in TRD.md: extraction done in a Claude Code session (no API key
+  needed — removes the API-key blocker); quiz questions LLM-generated offline into a new
+  `quiz_questions` table; quiz score overrides self-rating. Team is currently **solo** (one
+  person), so track split in TASK.md doesn't apply yet.
+- 2026-10-05 — Planning decisions locked in TRD.md: interview text is manually curated real posts;
+  auth is Supabase Auth (browser uses anon key for login only, backend verifies JWT — NFR-4
+  reworded); skill check uses both self-rating and a per-topic quiz (quiz design still open).
 
 - 2026-10-04 — Locked 19-company/23-role seed list (`data-pipeline/seed/companies-roles.json`);
   loaded into Supabase via new `data-pipeline/seed-companies-roles.js`. Added missing `dotenv`

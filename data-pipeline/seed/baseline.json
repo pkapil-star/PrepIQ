@@ -1,0 +1,12 @@
+{
+  "_readme": "Curated baseline. topics: every topic once (subject: DSA|OS|DBMS|CN|OOP|Role-specific; level: beginner|intermediate|advanced; est_hours: hours to learn from scratch). weights: job title slug -> experience bucket -> topic name -> 0..1 (omit or 0 = not in roadmap). Slugs: sde, fde, cloud, cyber, web, data-ml, devops, qa. Buckets: student_new, student_interviewed, student_intern, work_1_2, work_2_4, work_4plus. The two entries below are format examples only - replace them.",
+  "topics": [
+    { "name": "Arrays & Strings", "subject": "DSA", "level": "beginner", "est_hours": 8 },
+    { "name": "Process Scheduling", "subject": "OS", "level": "intermediate", "est_hours": 3 }
+  ],
+  "weights": {
+    "sde": {
+      "student_new": { "Arrays & Strings": 1.0, "Process Scheduling": 0.4 }
+    }
+  }
+}

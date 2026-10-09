@@ -1,6 +1,6 @@
-// One-time seed: pushes seed/companies-roles.json into Supabase companies + roles tables.
-// Safe to re-run — upserts companies by name, inserts roles only if the exact
-// (company_id, title, experience_level) combo doesn't already exist.
+// One-time seed: pushes the companies in seed/companies-roles.json into Supabase.
+// Safe to re-run — inserts a company only if its name doesn't exist yet. The title and
+// experience_level fields are leftovers from the old company-first design and are ignored.
 require('dotenv').config()
 const fs = require('fs')
 const path = require('path')
@@ -10,47 +10,25 @@ const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SER
 const rows = JSON.parse(fs.readFileSync(path.join(__dirname, 'seed/companies-roles.json'), 'utf-8'))
 
 async function run() {
-  const companyIds = {}
-
+  const seen = new Set()
   for (const row of rows) {
-    if (!(row.company in companyIds)) {
-      const { data: existing } = await supabase
-        .from('companies')
-        .select('id')
-        .eq('name', row.company)
-        .maybeSingle()
+    if (seen.has(row.company)) continue
+    seen.add(row.company)
 
-      if (existing) {
-        companyIds[row.company] = existing.id
-      } else {
-        const { data: created, error } = await supabase
-          .from('companies')
-          .insert({ name: row.company, industry: row.industry })
-          .select('id')
-          .single()
-        if (error) throw error
-        companyIds[row.company] = created.id
-      }
-    }
-
-    const companyId = companyIds[row.company]
-    const { data: existingRole } = await supabase
-      .from('roles')
+    const { data: existing, error: findErr } = await supabase
+      .from('companies')
       .select('id')
-      .eq('company_id', companyId)
-      .eq('title', row.title)
-      .eq('experience_level', row.experience_level)
+      .eq('name', row.company)
       .maybeSingle()
+    if (findErr) throw findErr
 
-    if (!existingRole) {
-      const { error } = await supabase
-        .from('roles')
-        .insert({ company_id: companyId, title: row.title, experience_level: row.experience_level })
-      if (error) throw error
-      console.log(`inserted: ${row.company} / ${row.title} / ${row.experience_level}`)
-    } else {
-      console.log(`skipped (exists): ${row.company} / ${row.title} / ${row.experience_level}`)
+    if (existing) {
+      console.log(`skipped (exists): ${row.company}`)
+      continue
     }
+    const { error } = await supabase.from('companies').insert({ name: row.company, industry: row.industry })
+    if (error) throw error
+    console.log(`inserted: ${row.company}`)
   }
 }
 
