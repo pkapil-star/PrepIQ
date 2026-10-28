@@ -6,3 +6,4 @@ dist/
 graphify-out/
 CLAUDE.md
 MEMORY.md
+.claude/
