@@ -11,6 +11,28 @@ doesn't need a dedicated person until near the end).
 
 ---
 
+## How to use this file
+
+From now on, new tasks are written here under "Current Task". The Phase 0-4 plan further down is the
+old team plan and is kept for reference only.
+
+**After finishing a feature, ask the user whether to log it in `MEMORY.md`. Don't update it until they say yes.**
+
+## Current Task — Ranking step ("Let's do it")
+
+Added 2026-11-05. Replaces the topic-rating page (`SelfAssessment.jsx`) right after the Profile page.
+Landing, Login, auth and Profile stay as they are.
+
+- [ ] Intro screen: "Rank your areas from weakest to strongest" + a "Let's do it" button
+- [ ] Ranking board: 7 cards (DSA, OS, DBMS, CNS, OOP, Communication Skills, one role-specific card
+      that changes with the target role); the user clicks them weakest first (rank 1) to strongest (rank 7)
+- [ ] 3D cards that tilt toward the cursor, with a cursor-following spotlight and a rank badge
+- [ ] Convert rank to a rating, `(rank - 1) / 6`, then reuse `saveSkills` + `generateRoadmap`
+- [ ] Wire it into `App.jsx` (after Profile, and for "Redo assessment"), then delete `SelfAssessment.jsx`
+- [ ] Known gap: Communication Skills has no topics yet, so it only affects ranking, not the roadmap
+
+---
+
 ## Phase 0 — Pre-Hackathon Prep (the 2 days before)
 
 Goal: walk into the hackathon with a working skeleton and real seed data, not a blank repo.

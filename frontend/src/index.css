@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+/* Lenis' recommended base styles (it only runs on the landing page). */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+
+:focus-visible { outline: 2px solid #6366f1; outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+/* Slow drifting background glows used by AppShell; the reduced-motion rule above stops them. */
+@keyframes drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(6rem, 4rem) scale(1.15); }
+}
+.glow { animation: drift 18s ease-in-out infinite; }
+.glow-slow { animation-duration: 26s; animation-direction: reverse; }
+
+/* Matches AppShell so page fades never flash white. */
+body { background: #020617; }
